@@ -251,7 +251,7 @@
                                 <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-white mb-6">
                                     We help companies to secure their <span
                                         class="gradient-text font-bold text-xl md:text-2xl lg:text-3xl">Oracle
-                                        ERP</span> to ensure compliance, governance and audits
+                                        ERP</span> to ensure Compliance, Governance and Audits
                                 </p>
 
                                 <div class="flex flex-col sm:flex-row gap-4">
