@@ -76,19 +76,19 @@
             x-transition:leave-end="opacity-0 -translate-y-full"
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
-                <a href="./index.html" class="flex items-center gap-3">
+                <a href="./index.php" class="flex items-center gap-3">
                     <img src="../assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
                         loading="lazy">
                 </a>
 
                 <div class="hidden lg:flex items-center space-x-5">
-                    <a href="./index.html"
+                    <a href="./index.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Home</a>
-                    <a href="./about.html"
+                    <a href="./about.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">About Us</a>
-                    <a href="./service.html"
+                    <a href="./service.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Our Services</a>
-                    <a href="./contact.html"
+                    <a href="./contact.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Contact Us</a>
                 </div>
 
@@ -115,16 +115,16 @@
             class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full text-center text-white">
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
-                    <a href="./index.html" class="flex items-center gap-3">
+                    <a href="./index.php" class="flex items-center gap-3">
                         <img src="../assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
                             height="78">
                     </a>
 
                     <div class="hidden lg:flex items-center space-x-6">
-                        <a href="./index.html" class="hover:text-gray-300 transition-colors">Home</a>
-                        <a href="./about.html" class="hover:text-gray-300 transition-colors">About Us</a>
-                        <a href="./service.html" class="hover:text-gray-300 transition-colors">Our Services</a>
-                        <a href="./contact.html" class="hover:text-gray-300 transition-colors">Contact Us</a>
+                        <a href="./index.php" class="hover:text-gray-300 transition-colors">Home</a>
+                        <a href="./about.php" class="hover:text-gray-300 transition-colors">About Us</a>
+                        <a href="./service.php" class="hover:text-gray-300 transition-colors">Our Services</a>
+                        <a href="./contact.php" class="hover:text-gray-300 transition-colors">Contact Us</a>
                     </div>
 
                     <button @click="mobileMenuOpen = true"
@@ -294,62 +294,7 @@
         </div>
     </section>
 
-    <footer class="relative bg-[#030F47] text-white" x-data="{ showMenu: false }">
-        <div class="relative container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10">
-                <div class="space-y-4">
-                    <a href="./index.html" class="inline-block">
-                        <img src="../assets/images/logo.svg" alt="Logo" class="h-[60px] lg:h-[78px] w-auto" />
-                    </a>
-                    <p class="text-sm sm:text-base leading-relaxed opacity-90">
-                        Empowering businesses with <b>ERP Controls Automation</b>. Trusted
-                        solutions for secure and efficient operations.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li>
-                            <a href="./index.html" class="hover:text-[#13FEFE] transition-colors">Home</a>
-                        </li>
-                        <li>
-                            <a href="./about.html" class="hover:text-[#13FEFE] transition-colors">About Us</a>
-                        </li>
-                        <li>
-                            <a href="./service.html" class="hover:text-[#13FEFE] transition-colors">Our Services</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html" class="hover:text-[#13FEFE] transition-colors">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Contact</h3>
-                    <ul class="space-y-2 text-sm sm:text-base">
-                        <li>
-                            Email:
-                            <a href="mailto:erpsecuretyexperts@gmail.com"
-                                class="hover:text-[#13FEFE] transition-colors">erpsecuretyexperts@gmail.com</a>
-                        </li>
-                        <li>
-                            Phone:
-                            <a href="tel:+1-000-000-0000"
-                                class="hover:text-[#13FEFE] transition-colors">+1-000-000-0000</a>,
-                            <a href="tel:+1-602-500-6054"
-                                class="hover:text-[#13FEFE] transition-colors">+1-602-500-6054</a>
-                        </li>
-                        <li>Address: Phoenix, Arizona Office 15650 N Black Canyon Hwy STE Phoenix, AZ 85053</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-12 border-t border-white/20 p-4 text-center text-xs sm:text-sm opacity-70">
-                &copy; 2025 Your Company Name. All rights reserved.
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
