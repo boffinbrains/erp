@@ -76,19 +76,19 @@
             x-transition:leave-end="opacity-0 -translate-y-full"
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
-                <a href="./index.html" class="flex items-center gap-3">
+                <a href="./index.php" class="flex items-center gap-3">
                     <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
                         loading="lazy">
                 </a>
 
                 <div class="hidden lg:flex items-center space-x-5">
-                    <a href="./index.html"
+                    <a href="./index.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Home</a>
-                    <a href="./about.html"
+                    <a href="./about.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">About Us</a>
-                    <a href="./service.html"
+                    <a href="./service.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Our Services</a>
-                    <a href="./contact.html"
+                    <a href="./contact.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Contact Us</a>
                 </div>
 
@@ -115,16 +115,16 @@
             class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full text-center text-white">
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
-                    <a href="./index.html" class="flex items-center gap-3">
+                    <a href="./index.php" class="flex items-center gap-3">
                         <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
                             height="78">
                     </a>
 
                     <div class="hidden lg:flex items-center space-x-6">
-                        <a href="./index.html" class="hover:text-gray-300 transition-colors">Home</a>
-                        <a href="./about.html" class="hover:text-gray-300 transition-colors">About Us</a>
-                        <a href="./service.html" class="hover:text-gray-300 transition-colors">Our Services</a>
-                        <a href="./contact.html" class="hover:text-gray-300 transition-colors">Contact Us</a>
+                        <a href="./index.php" class="hover:text-gray-300 transition-colors">Home</a>
+                        <a href="./about.php" class="hover:text-gray-300 transition-colors">About Us</a>
+                        <a href="./service.php" class="hover:text-gray-300 transition-colors">Our Services</a>
+                        <a href="./contact.php" class="hover:text-gray-300 transition-colors">Contact Us</a>
                     </div>
 
                     <button @click="mobileMenuOpen = true"
@@ -180,15 +180,15 @@
 
             <div class="flex-1 overflow-y-auto p-4">
                 <div class="space-y-6">
-                    <a href="./index.html" @click="mobileMenuOpen = false"
+                    <a href="./index.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Home</a>
-                    <a href="./about.html" @click="mobileMenuOpen = false"
+                    <a href="./about.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">About
                         Us</a>
-                    <a href="./service.html" @click="mobileMenuOpen = false"
+                    <a href="./service.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Service
                         Offerings</a>
-                    <a href="./contact.html" @click="mobileMenuOpen = false"
+                    <a href="./contact.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Contact
                         Us</a>
                 </div>
@@ -647,85 +647,7 @@
         </div>
     </section>
 
-    <footer class="relative bg-[#030F47] text-white" x-data="{ showMenu: false }">
-        <div class="relative container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 pt-10">
-                <div class="space-y-4">
-                    <a href="./index.html" class="inline-block">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="h-[60px] lg:h-[78px] w-auto" />
-                    </a>
-                    <p class="text-sm sm:text-base leading-relaxed opacity-90">
-                        Empowering businesses with <b>ERP Controls Automation</b>. Trusted
-                        solutions for secure and efficient operations.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li>
-                            <a href="./index.html" class="hover:text-[#13FEFE] transition-colors">Home</a>
-                        </li>
-                        <li>
-                            <a href="./about.html" class="hover:text-[#13FEFE] transition-colors">About Us</a>
-                        </li>
-                        <li>
-                            <a href="./service.html" class="hover:text-[#13FEFE] transition-colors">Our Services</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html" class="hover:text-[#13FEFE] transition-colors">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Our Services</h3>
-                    <ul class="space-y-2">
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Security Assessment</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Risk Assessment</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Segregation of Duties (SoD)</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Role Design</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Oracle ERP Cloud License
-                                Management</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Contact</h3>
-                    <ul class="space-y-2 text-sm sm:text-base">
-                        <li>
-                            Phone:
-                            <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 602 690
-                                9228</a> /
-                            <a href="tel:+1 414 217 7715" class="hover:text-[#13FEFE] transition-colors">+1 414 217
-                                7715</a>
-                        </li>
-                        <li>
-                            Email:
-                            <a href="mailto:tkhan@erpsecurityexperts.com" class="hover:text-[#13FEFE] transition-colors">tkhan@erpsecurityexperts.com</a>
-                             <br>
-                            <a href="mailto:asiddiqui@erpsecurityexperts.com" class="hover:text-[#13FEFE] transition-colors">asiddiqui@erpsecurityexperts.com</a>
-                        </li>
-                        <li>Address: Phoenix, Arizona Office <br> 15650 N Black Canyon Hwy <br> STE B135 <br> Phoenix, AZ 85053</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-12 border-t border-white/20 p-4 text-center text-xs sm:text-sm opacity-70">
-                &copy; Copyright 2025. All Rights Reserved by ERP Security Experts. Technology Partner <a href="https://boffinbrains.com/" target="_blank">BoffinBrains</a>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

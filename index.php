@@ -154,19 +154,19 @@
             x-transition:leave-end="opacity-0 -translate-y-full"
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
-                <a href="./index.html" class="flex items-center gap-3">
+                <a href="./index.php" class="flex items-center gap-3">
                     <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto"
                         width="133" height="78" loading="lazy" />
                 </a>
 
                 <div class="hidden lg:flex items-center space-x-5">
-                    <a href="./index.html"
+                    <a href="./index.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Home</a>
-                    <a href="./about.html"
+                    <a href="./about.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">About Us</a>
-                    <a href="./service.html"
+                    <a href="./service.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Our Services</a>
-                    <a href="./contact.html"
+                    <a href="./contact.php"
                         class="text-white hover:text-gray-300 transition-colors text-sm font-medium">Contact Us</a>
                 </div>
 
@@ -193,16 +193,16 @@
             class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full text-center text-white">
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
-                    <a href="./index.html" class="flex items-center gap-3">
+                    <a href="./index.php" class="flex items-center gap-3">
                         <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt=""
                             class="h-[60px] lg:h-[78px] w-auto" width="133" height="78" />
                     </a>
 
                     <div class="hidden lg:flex items-center space-x-6">
-                        <a href="./index.html" class="hover:text-gray-300 transition-colors">Home</a>
-                        <a href="./about.html" class="hover:text-gray-300 transition-colors">About Us</a>
-                        <a href="./service.html" class="hover:text-gray-300 transition-colors">Our Services</a>
-                        <a href="./contact.html" class="hover:text-gray-300 transition-colors">Contact Us</a>
+                        <a href="./index.php" class="hover:text-gray-300 transition-colors">Home</a>
+                        <a href="./about.php" class="hover:text-gray-300 transition-colors">About Us</a>
+                        <a href="./service.php" class="hover:text-gray-300 transition-colors">Our Services</a>
+                        <a href="./contact.php" class="hover:text-gray-300 transition-colors">Contact Us</a>
                     </div>
 
                     <button @click="mobileMenuOpen = true"
@@ -255,11 +255,11 @@
                                 </p>
 
                                 <div class="flex flex-col sm:flex-row gap-4">
-                                    <a href="./service.html"
+                                    <a href="./service.php"
                                         class="bg-white text-black rounded-full py-2.5 px-8 text-base lg:text-lg font-semibold flex-1 text-center transition-all duration-300 hover:bg-gray-100 hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                                         Explore Services
                                     </a>
-                                    <a href="./contact.html"
+                                    <a href="./contact.php"
                                         class="bg-[#13FEFE] text-black rounded-full py-2.5 px-8 text-base lg:text-lg font-semibold flex-1 text-center transition-all duration-300 hover:bg-[#0ee8e8] hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                                         Let's Talk
                                     </a>
@@ -328,7 +328,7 @@
           background: linear-gradient(80.2deg, #3945a2 18.15%, #151a3c 80.9%);
         ">
             <div class="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
-                <a href="./index.html">
+                <a href="./index.php">
                     <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" width="133" height="78"
                         class="h-[60px] lg:h-[78px] w-auto" loading="lazy" />
                 </a>
@@ -344,15 +344,15 @@
 
             <div class="flex-1 overflow-y-auto p-4">
                 <div class="space-y-6">
-                    <a href="./index.html" @click="mobileMenuOpen = false"
+                    <a href="./index.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Home</a>
-                    <a href="./about.html" @click="mobileMenuOpen = false"
+                    <a href="./about.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">About
                         Us</a>
-                    <a href="./service.html" @click="mobileMenuOpen = false"
+                    <a href="./service.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Our
                         Services</a>
-                    <a href="./contact.html" @click="mobileMenuOpen = false"
+                    <a href="./contact.php" @click="mobileMenuOpen = false"
                         class="block text-white font-medium text-lg hover:text-gray-300 transition-colors duration-300">Contact
                         Us</a>
                 </div>
@@ -430,7 +430,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.html" class="text-gradient text-xl font-semibold">See How
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
                                                 We Secure
                                                 ERP</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
@@ -457,7 +457,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.html" class="text-gradient text-xl font-semibold">See How
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
                                                 We Secure
                                                 ERP</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
@@ -483,7 +483,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.html" class="text-gradient text-xl font-semibold">See How
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
                                                 We Secure
                                                 ERP</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
@@ -509,7 +509,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.html" class="text-gradient text-xl font-semibold">See How
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
                                                 We Secure
                                                 ERP</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
@@ -535,7 +535,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.html" class="text-gradient text-xl font-semibold">See How
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
                                                 We Secure
                                                 ERP</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
@@ -566,7 +566,7 @@
                             <div>
                                 <img src="./assets/icons/it-teams.svg" alt="IT teams">
                             </div>
-                            <a href="./service.html" class="font-semibold flex items-center gap-2">
+                            <a href="./service.php" class="font-semibold flex items-center gap-2">
                                 <span>View Service</span>
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
@@ -599,7 +599,7 @@
                             <div>
                                 <img src="./assets/icons/information-security.svg" alt="information Security">
                             </div>
-                            <a href="./service.html" class="font-semibold flex items-center gap-2">
+                            <a href="./service.php" class="font-semibold flex items-center gap-2">
                                 <span>View Service</span>
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
@@ -632,7 +632,7 @@
                             <div>
                                 <img src="./assets/icons/compliance-risk.svg" alt="Compliance & Risk">
                             </div>
-                            <a href="./service.html" class="font-semibold flex items-center gap-2">
+                            <a href="./service.php" class="font-semibold flex items-center gap-2">
                                 <span>View Service</span>
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
@@ -665,7 +665,7 @@
                             <div>
                                 <img src="./assets/icons/finance-&-audit.svg" alt="Finance & Audit">
                             </div>
-                            <a href="./service.html" class="font-semibold flex items-center gap-2">
+                            <a href="./service.php" class="font-semibold flex items-center gap-2">
                                 <span>View Service</span>
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
@@ -1123,7 +1123,7 @@
                 <div class="swiper-pagination static"></div>
             </div>
             <script defer>
-                document.addEventListener('DOMContentLoaded', function () {
+                document.addEventListener('DOMContentLoaded', function() {
                     new Swiper('.testimonialSwiper', {
                         loop: false,
                         slidesPerView: 'auto',
@@ -1156,22 +1156,29 @@
                             gET sTARTED WITH YOUR fAVOURITE
                         </p>
                     </div>
+                    <?php
+                    if (isset($_GET['status']) && $_GET['status'] === 'success') {
+                        echo "<div style='color: green;'>Message sent successfully!</div>";
+                    }
+                    ?>
 
-                    <form action="" class="mt-6 space-y-4">
+                    <form action="send-mail.php" method="POST" id="contactForm" class="mt-6 space-y-4">
+                        <input type="hidden" name="redirect_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
+                        <input type="hidden" name="source" value="Home page">
                         <div class="grid sm:grid-cols-2 gap-4">
-                            <input type="text" placeholder="Name"
+                            <input type="text" placeholder="Name" name="name"
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="email" placeholder="Email"
+                            <input type="email" placeholder="Email" name="email"
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="text" placeholder="Company Name"
+                            <input type="text" placeholder="Company Name" name="company"
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="phone" placeholder="Contact Number"
+                            <input type="phone" placeholder="Contact Number" name="phone"
                                 class=" border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
                         </div>
-                        <textarea name="message" placeholder="Message" rows="6"
+                        <textarea name="message" placeholder="Message" rows="6" name="message"
                             class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0"></textarea>
 
-                        <button class="bg-[#FF5500] text-white px-10 py-1 text-xl rounded-full">
+                        <button class="bg-[#FF5500] text-white px-10 py-1 text-xl rounded-full" type="submit">
                             SUBMIT
                         </button>
                     </form>
@@ -1185,90 +1192,8 @@
         </div>
     </section>
 
-    <footer class="relative bg-[#030F47] text-white" x-data="{ showMenu: false }">
-        <div class="relative container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 pt-10">
-                <div class="space-y-4">
-                    <a href="./index.html" class="inline-block">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo"
-                            class="h-[60px] lg:h-[78px] w-auto" />
-                    </a>
-                    <p class="text-sm sm:text-base leading-relaxed opacity-90">
-                        Empowering businesses with <b>ERP Controls Automation</b>. Trusted
-                        solutions for secure and efficient operations.
-                    </p>
-                </div>
 
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li>
-                            <a href="./index.html" class="hover:text-[#13FEFE] transition-colors">Home</a>
-                        </li>
-                        <li>
-                            <a href="./about.html" class="hover:text-[#13FEFE] transition-colors">About Us</a>
-                        </li>
-                        <li>
-                            <a href="./service.html" class="hover:text-[#13FEFE] transition-colors">Our Services</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html" class="hover:text-[#13FEFE] transition-colors">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Our Services</h3>
-                    <ul class="space-y-2">
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Security Assessment</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Risk Assessment</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Segregation of Duties (SoD)</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Role Design</a>
-                        </li>
-                        <li>
-                            <a href="" class="hover:text-[#13FEFE] transition-colors">Oracle ERP Cloud License
-                                Management</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Contact</h3>
-                    <ul class="space-y-2 text-sm sm:text-base">
-                        <li>
-                            Phone:
-                            <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 602 690
-                                9228</a> /
-                            <a href="tel:+1 414 217 7715" class="hover:text-[#13FEFE] transition-colors">+1 414 217
-                                7715</a>
-                        </li>
-                        <li>
-                            Email:
-                            <a href="mailto:tkhan@erpsecurityexperts.com"
-                                class="hover:text-[#13FEFE] transition-colors">tkhan@erpsecurityexperts.com</a>
-                            <br>
-                            <a href="mailto:asiddiqui@erpsecurityexperts.com"
-                                class="hover:text-[#13FEFE] transition-colors">asiddiqui@erpsecurityexperts.com</a>
-                        </li>
-                        <li>Address: Phoenix, Arizona Office <br> 15650 N Black Canyon Hwy <br> STE B135 <br> Phoenix,
-                            AZ 85053</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-12 border-t border-white/20 p-4 text-center text-xs sm:text-sm opacity-70">
-                &copy; Copyright 2025. All Rights Reserved by ERP Security Experts. Technology Partner <a
-                    href="https://boffinbrains.com/" target="_blank">BoffinBrains</a>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
     <script defer>
         const swiper = new Swiper(".mySwiper", {
@@ -1290,7 +1215,7 @@
         });
     </script>
     <script defer>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             const video = document.getElementById('heroVideo');
             const playBtn = document.getElementById('customPlayBtn');
             const videoContainer = document.getElementById('videoContainer');
@@ -1301,7 +1226,7 @@
                 return;
             }
 
-            playBtn.addEventListener("click", function () {
+            playBtn.addEventListener("click", function() {
                 if (!isVideoLoaded) {
                     video.src = "https://boffinbrains.in/erp/assets/videos/erp.mp4";
                     video.load();
@@ -1310,7 +1235,9 @@
                         video.play();
                         video.setAttribute("controls", "true");
                         isVideoLoaded = true;
-                    }, { once: true });
+                    }, {
+                        once: true
+                    });
                 } else {
                     video.play();
                     video.setAttribute("controls", "true");
@@ -1344,22 +1271,63 @@
                 console.error('Error observing video container:', error);
             }
 
-            video.addEventListener('pause', function () {
+            video.addEventListener('pause', function() {
                 if (video.currentTime < video.duration && isVideoLoaded) {
                     playBtn.style.opacity = '1';
                     playBtn.style.pointerEvents = 'auto';
                 }
             });
 
-            video.addEventListener('ended', function () {
+            video.addEventListener('ended', function() {
                 playBtn.style.opacity = '1';
                 playBtn.style.pointerEvents = 'auto';
             });
 
-            video.addEventListener('play', function () {
+            video.addEventListener('play', function() {
                 playBtn.style.opacity = '0';
                 playBtn.style.pointerEvents = 'none';
             });
+        });
+    </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const status = urlParams.get('status');
+        const messageContainer = document.getElementById('message-container');
+
+        if (status) {
+            let message = '';
+            let bgColor = '';
+
+            if (status === 'error') {
+                message = 'Please fill all required fields!';
+                bgColor = 'bg-red-100 border border-red-400 text-red-700';
+            } else if (status === 'invalid') {
+                message = 'Please enter a valid email address!';
+                bgColor = 'bg-red-100 border border-red-400 text-red-700';
+            } else if (status === 'failed') {
+                message = 'Failed to send message. Please try again!';
+                bgColor = 'bg-red-100 border border-red-400 text-red-700';
+            }
+
+            if (message) {
+                messageContainer.innerHTML = `
+                    <div class="${bgColor} px-4 py-3 rounded-lg mb-4 text-center font-medium">
+                        ${message}
+                    </div>
+                `;
+
+                setTimeout(() => {
+                    messageContainer.innerHTML = '';
+                    window.history.replaceState({}, document.title, window.location.pathname);
+                }, 5000);
+            }
+        }
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            const submitBtn = this.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'Sending... ⏳';
         });
     </script>
 </body>
