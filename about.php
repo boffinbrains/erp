@@ -301,24 +301,22 @@
                                     width="948" height="1284">
                             </div>
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">Taraj Khan</h3>
-                            <p class="text-lg font-semibold  mb-1">Co-Founder and Director</p>
+                            <p class="text-lg font-semibold  mb-1">Co-Founder and Director – Oracle Security & Risk Management Expert</p>
                         </div>
 
                         <div class="space-y-6">
                             <div class="space-y-3">
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">25+ years in enterprise ERP Security and governance</p>
+                                        <p class="text-gray-600 text-sm">Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Program lead for Oracle Risk Management and controls
-                                            automation</p>
+                                        <p class="text-gray-600 text-sm">managing Support, Leadership, and Project Management.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">PMP-certified global consultant delivering multi-region
-                                            rollouts</p>
+                                        <p class="text-gray-600 text-sm">both in US and Global markets. </p>
                                     </div>
                                 </div>
 
@@ -327,24 +325,23 @@
                                 <div class="space-y-3">
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle Cloud Security and Risk Management
-                                            implementations</p>
+                                        <p class="text-gray-600 text-sm">Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Risk and SoD assessments with remediation roadmaps</p>
+                                        <p class="text-gray-600 text-sm">Specialize in Oracle Cloud Governance, Risk & Compliance.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Converting SA/ITAC/ITGC controls into Oracle RMC</p>
+                                        <p class="text-gray-600 text-sm">•	Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle license optimization to reduce total spend</p>
+                                        <p class="text-gray-600 text-sm">Oracle License Management & Optimization to reduce Cost.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Advisory, consulting, staffing, and managed services</p>
+                                        <p class="text-gray-600 text-sm">ERP Managed Services, Advisory, Consulting & Staffing</p>
                                     </div>
                                 </div>
                             </div>
@@ -359,7 +356,7 @@
                                     width="948" height="1284">
                             </div>
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">Asim Siddiqui</h3>
-                            <p class="text-lg font-semibold mb-1">Co-Founder and Director</p>
+                            <p class="text-lg font-semibold mb-1">Co Founder and Director - Oracle Cloud & Cybersecurity Specialist</p>
                         </div>
 
                         <div class="space-y-6">
@@ -367,17 +364,18 @@
                             <div class="space-y-3">
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Certified Oracle Cloud subject‑matter expert (HCM, SCM,
+                                        <p class="text-gray-600 text-sm">Certified Oracle Cloud subject-matter expert (HCM, SCM,
                                             ERP, FDI, OCI)</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">15+ years Big‑5 consulting background</p>
+                                        <p class="text-gray-600 text-sm">15+ years Big-5 consulting background</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">5+ years of founder/CEO experience in Oracle consulting
-                                            and managed services</p>
+                                        <p class="text-gray-600 text-sm">      5+ years of founder/CEO experience in Oracle consulting
+                                            and managed services
+</p>
                                     </div>
                                 </div>
 
@@ -390,8 +388,7 @@
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle Cloud Security consulting across applications and
-                                            infrastructure</p>
+                                        <p class="text-gray-600 text-sm">    Oracle Cloud Security consulting across applications and infrastructure</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -399,7 +396,7 @@
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Operating models that keep controls strong post‑go‑live</p>
+                                        <p class="text-gray-600 text-sm">    Operating models that keep controls strong post-go-live</p>
                                     </div>
                                 </div>
                             </div>

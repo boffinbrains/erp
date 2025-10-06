@@ -450,10 +450,10 @@
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
                                         <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
-                                            Uncover potential ERP fraud transactions with automated analysis and
-                                            continuous
-                                            monitoring. Proactively address threats to strengthen resilience and
-                                            safeguard business operations.
+                                            Detect & Report Unauthorized User Access, Detect who have Config/Setup Access & Detect who have Super User / Elevated Access within the Company.
+                                        </p>
+                                        <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                                            Detect & Report Potential Error & Fraud/Suspicious Transactions on Financials, Procurement, Payroll and other Business Areas.
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
@@ -529,9 +529,7 @@
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
                                         <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
-                                            Optimize your Oracle ERP Cloud licenses with real-time tracking and usage
-                                            analysis. Identify underutilized licenses, prevent overspending, and ensure
-                                            compliance delivering maximum efficiency and cost savings.
+                                            Review and Evaluate Oracle Licenses Management & perform Optimization to reduce License Cost.
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
@@ -760,6 +758,48 @@
     </section>
 
     <section>
+    <div class="container mx-auto p-4 mt-5 sm:mt-10">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
+                Trusted by Industry Leaders Worldwide
+            </h2>
+        </div>
+
+        <div class="mt-5 sm:mt-10">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-center justify-items-center">
+                <div class="flex items-center justify-center p-4">
+                    <img src="https://boffinbrains.in/erp/assets/images/iflowsoft-logo.jpg" 
+                        alt="iFlowsoft" 
+                        loading="lazy" 
+                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                </div>
+
+                <div class="flex items-center justify-center p-4">
+                    <img src="https://boffinbrains.in/erp/assets/images/qbotica-logo.webp" 
+                        alt="qBotica" 
+                        loading="lazy" 
+                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                </div>
+
+                <div class="flex items-center justify-center p-4">
+                    <img src="https://boffinbrains.in/erp/assets/images/technicax-logo.jpeg" 
+                        alt="Technicax" 
+                        loading="lazy" 
+                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                </div>
+
+                <div class="flex items-center justify-center p-4">
+                    <img src="https://boffinbrains.in/erp/assets/images/techedge-logo.webp" 
+                        alt="TechEdge" 
+                        loading="lazy" 
+                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
@@ -785,19 +825,17 @@
                                 <div class="p-4 flex flex-col justify-center space-y-2">
                                     <h3 class="text-xl md:text-2xl font-bold">Taraj Khan</h3>
                                     <p class="text-base md:text-xl font-semibold">
-                                        Co-Founder and Director - ERP Security & Governance Leader
+                                        Co-Founder and Director – Oracle Security & Risk Management Expert
                                     </p>
                                     <ul class="list-disc ml-6 text-sm sm:text-base">
                                         <li>
-                                            25+ years in enterprise ERP Security and governance
+                                            Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.
                                         </li>
                                         <li>
-                                            Program lead for Oracle Risk Management and controls
-                                            automation
+                                            managing Support, Leadership, and Project Management.
                                         </li>
                                         <li>
-                                            PMP-certified global consultant delivering multi-region
-                                            rollouts
+                                            both in US and Global markets.
                                         </li>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">
@@ -805,16 +843,15 @@
                                     </p>
                                     <ul class="list-disc ml-6 text-sm sm:text-base">
                                         <li>
-                                            Oracle Cloud Security and Risk Management
-                                            implementations
+                                            Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.
                                         </li>
                                         <li>
-                                            Risk and SoD assessments with remediation roadmaps
+                                            Specialize in Oracle Cloud Governance, Risk & Compliance.
                                         </li>
-                                        <li>Converting SA/ITAC/ITGC controls into Oracle RMC</li>
-                                        <li>Oracle license optimization to reduce total spend</li>
+                                        <li>Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</li>
+                                        <li>Oracle License Management & Optimization to reduce Cost.</li>
                                         <li>
-                                            Advisory, consulting, staffing, and managed services
+                                            ERP Managed Services, Advisory, Consulting & Staffing
                                         </li>
                                     </ul>
                                 </div>
@@ -830,7 +867,7 @@
                                 <div class="p-4 flex flex-col justify-center space-y-2">
                                     <h3 class="text-xl md:text-2xl font-bold">Asim Siddiqui</h3>
                                     <p class="text-base md:text-xl font-semibold">
-                                        Co‑Founder and Director - Oracle Cloud & Cybersecurity Specialist
+                                        Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
                                     </p>
                                     <ul class="list-disc ml-6 text-sm sm:text-base">
                                         <li>
@@ -841,6 +878,7 @@
                                         <li>
                                             5+ years of founder/CEO experience in Oracle consulting
                                             and managed services
+
                                         </li>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">
@@ -851,6 +889,7 @@
                                         <li>
                                             Oracle Cloud Security consulting across applications and
                                             infrastructure
+
                                         </li>
                                         <li>Oracle Cloud HCM consulting at scale</li>
                                         <li>
@@ -942,6 +981,7 @@
         }
     </style>
 
+
     <section class="py-5 md:py-10">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-left sm:text-center mb-4">
@@ -952,117 +992,119 @@
 
             <div class="swiper testimonialSwiper">
                 <div class="swiper-wrapper" id="testimonials-wrapper">
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+
+                    <!-- Dept of Energy -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/myriad-genetics-logo.svg"
-                                    alt="Myriad Genetics" class="h-8 object-contain">
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.png"
+                                    alt="Dept of Energy" class="h-8 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts helped us strengthen ERP access controls and streamline SoD
-                                    compliance. Their proactive risk assessment ensured our sensitive data stays
-                                    protected while keeping us audit-ready."
+                                    "ERP Security Experts supported our government systems with stringent compliance, security audits, and robust access control."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
-                                    Director, IT Security, Myriad Genetics
+                                    Director, IT Security, Dept of Energy
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                    <!-- BCBS -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/arizona-state-retirement.jpg"
-                                    alt="Arizona State Retirement" class="h-10 object-contain">
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.png"
+                                    alt="BCBS" class="h-8 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts delivered a comprehensive security assessment that addressed
-                                    risks in our ERP environment. Their guidance enhanced compliance and safeguarded
-                                    member data."
+                                    "Their solutions helped us secure sensitive patient data, align with healthcare compliance, and streamline our ERP workflows."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
-                                    Chief Compliance Officer, Arizona State Retirement
+                                    CIO, Blue Cross Blue Shield
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                    <!-- Kaiser Permanente -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg" alt="Twilio"
-                                    class="h-10 object-contain">
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.png"
+                                    alt="Kaiser Permanente" class="h-8 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their
-                                    solutions gave us both cost savings and a stronger security posture."
+                                    "We improved ERP security, role design, and compliance posture with their team’s expertise."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
-                                    ERP Applications Manager, Twilio
+                                    IT Director, Kaiser Permanente
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                    <!-- ACCO Engineered Systems -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/regal-rexnord-logo.webp"
-                                    alt="Regal Rexnord" class="h-8 object-contain">
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.png"
+                                    alt="ACCO Engineered Systems" class="h-8 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "By redesigning our ERP roles, they reduced access risks and improved operational
-                                    efficiency. ERP Security Experts brought clarity and control to our security
-                                    framework."
+                                    "Their ERP integration significantly streamlined our project workflows and improved system-wide security compliance."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
-                                    Global IT Director, Regal Rexnord
+                                    CIO, ACCO Engineered Systems
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                    <!-- GKN Wheels -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                        <figure class="flex flex-col h-full justify-between">
+                            <div class="flex justify-center mb-3">
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.png"
+                                    alt="GKN Wheels" class="h-8 object-contain">
+                            </div>
+                            <blockquote>
+                                <p class="font-medium text-gray-900 text-center">
+                                    "Their robust ERP audit and optimization helped align our global operations with compliance standards efficiently."
+                                </p>
+                            </blockquote>
+                            <figcaption class="mt-3 text-center">
+                                <div class="font-medium text-gray-900 text-xs">
+                                    Head of IT, GKN Wheels
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- KEEP: Indiana University Health -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
                                 <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.svg"
                                     alt="Indiana University Health" class="h-12 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "Their automated risk controls and continuous monitoring gave us confidence in
-                                    meeting compliance requirements. ERP Security Experts have been a trusted partner in
-                                    our security journey."
+                                    "Their automated risk controls and continuous monitoring gave us confidence in meeting compliance requirements. ERP Security Experts have been a trusted partner in our security journey."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
                                     CISO, Indiana University Health
@@ -1071,22 +1113,58 @@
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                    <!-- KEEP: Twilio -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                        <figure class="flex flex-col h-full justify-between">
+                            <div class="flex justify-center mb-3">
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg"
+                                    alt="Twilio" class="h-10 object-contain">
+                            </div>
+                            <blockquote>
+                                <p class="font-medium text-gray-900 text-center">
+                                    "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their solutions gave us both cost savings and a stronger security posture."
+                                </p>
+                            </blockquote>
+                            <figcaption class="mt-3 text-center">
+                                <div class="font-medium text-gray-900 text-xs">
+                                    ERP Applications Manager, Twilio
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- KEEP: Exelon -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
+                        <figure class="flex flex-col h-full justify-between">
+                            <div class="flex justify-center mb-3">
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png"
+                                    alt="Exelon" class="h-10 object-contain">
+                            </div>
+                            <blockquote>
+                                <p class="font-medium text-gray-900 text-center">
+                                    "With license optimization and automated security checks, we improved ERP efficiency while cutting unnecessary costs. ERP Security Experts ensured our systems remain secure and compliant."
+                                </p>
+                            </blockquote>
+                            <figcaption class="mt-3 text-center">
+                                <div class="font-medium text-gray-900 text-xs">
+                                    Senior Manager, Exelon
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- KEEP: JPMorgan Chase -->
+                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
                                 <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.svg"
                                     alt="J.P. Morgan Chase" class="h-6 object-contain">
                             </div>
-
                             <blockquote>
                                 <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts helped us enforce tighter SoD policies and streamline role
-                                    design across our global ERP landscape. Their expertise in risk management has been
-                                    invaluable."
+                                    "ERP Security Experts helped us enforce tighter SoD policies and streamline role design across our global ERP landscape. Their expertise in risk management has been invaluable."
                                 </p>
                             </blockquote>
-
                             <figcaption class="mt-3 text-center">
                                 <div class="font-medium text-gray-900 text-xs">
                                     Director of Internal Audit, J.P. Morgan Chase
@@ -1095,33 +1173,11 @@
                         </figure>
                     </div>
 
-                    <div
-                        class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png" alt="Exelon"
-                                    class="h-10 object-contain">
-                            </div>
-
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "With license optimization and automated security checks, we improved ERP efficiency
-                                    while cutting unnecessary costs. ERP Security Experts ensured our systems remain
-                                    secure and compliant."
-                                </p>
-                            </blockquote>
-
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Senior Manager, Exelon
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
                 </div>
 
                 <div class="swiper-pagination static"></div>
             </div>
+
             <script defer>
                 document.addEventListener('DOMContentLoaded', function() {
                     new Swiper('.testimonialSwiper', {
