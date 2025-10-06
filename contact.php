@@ -287,7 +287,7 @@
                     </div>
                     <div>
                         <p class="text-xl font-semibold">Taraj Khan </p>
-                        <p class="text-xl font-semibold">Co-Founder & Director</p>
+                        <p class="text-xl font-semibold">Co-Founder and Director – Oracle Security & Risk Management Expert</p>
                         <p class="mt-4">Direct Phone: <a href="tel:+1 602 690 9228">+1 602 690 9228</a></p>
                         <p>Email: <a href="mailto:tkhan@erpsecurityexperts.com">tkhan@erpsecurityexperts.com</a></p>
                     </div>
@@ -300,7 +300,7 @@
                     </div>
                     <div>
                         <p class="text-xl font-semibold">Asim Siddiqui</p>
-                        <p class="text-xl font-semibold">Co-Founder & Director</p>
+                        <p class="text-xl font-semibold">Co Founder and Director - Oracle Cloud & Cybersecurity Specialist</p>
                         <p class="mt-4">Direct Phone: <a href="tel:+1 414 217 7715">+1 414 217 7715</a></p>
                         <p>Email: <a href="mailto:asiddiqui@erpsecurityexperts.com">asiddiqui@erpsecurityexperts.com</a></p>
                     </div>
