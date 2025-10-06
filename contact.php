@@ -139,7 +139,7 @@
                 </div>
             </nav>
 
-            <div class="mt-auto mb-auto py-5 pb-10 md:pb-20">
+            <div class="mt-auto mb-auto py-5 ">
                 <div class="container mx-auto text-center">
                     <div class="text-center space-y-2 md:space-y-3">
                         <h1
