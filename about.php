@@ -138,7 +138,7 @@
                 </div>
             </nav>
 
-            <div class="mt-auto mb-auto py-5 pb-10 md:pb-20">
+            <div class="mt-auto mb-auto py-5">
                 <div class="container mx-auto text-center">
                     <div class="text-center space-y-2 md:space-y-3">
                         <h1
@@ -255,7 +255,7 @@
                 <div class="flex justify-center order-2 lg:order-1">
                     <div class="w-full rounded-xl h-full">
                         <img src="https://boffinbrains.in/erp/assets/images/who-we-are.webp" alt="Who we are" loading="lazy"
-                            class="w-full h-full object-cover rounded-xl">
+                            class="w-full h-96 object-cover rounded-xl">
                     </div>
                 </div>
 

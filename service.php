@@ -154,9 +154,9 @@
                                     Us</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="flex justify-center items-center">
                             <img src="https://boffinbrains.in/erp/assets/images/erp-service.webp" alt="ERP service"
-                                class="w-full h-auto object-contain">
+                                class="w-auto h-96 object-contain">
                         </div>
                     </div>
                 </div>
