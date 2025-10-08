@@ -218,6 +218,129 @@
         </div>
     </section>
 
+    <section class="bg-[#EFEFEF]">
+        <div class="container mx-auto px-4 mt-5 sm:mt-10 py-10">
+            <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
+                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
+                    Leadership Snapshot
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-6xl mx-auto mt-4 md:mt-10">
+                <div class="leader-card bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <div class="flex flex-col items-center text-center mb-4">
+                            <div class="w-40 h-40 rounded-full overflow-hidden mb-6 shadow-lg">
+                                <img src="https://boffinbrains.in/erp/assets/images/taraj-khan-image.webp" alt="Taraj Khan" class="w-full h-auto"
+                                    width="948" height="1284">
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Taraj Khan</h3>
+                            <p class="text-lg font-semibold  mb-1">Co-Founder and Director – Oracle Security & Risk Management Expert</p>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div class="space-y-3">
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm">Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm">managing Support, Leadership, and Project Management.</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm">both in US and Global markets. </p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-4">Core expertise:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">Specialize in Oracle Cloud Governance, Risk & Compliance.</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">• Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">Oracle License Management & Optimization to reduce Cost.</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">ERP Managed Services, Advisory, Consulting & Staffing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader-card bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <div class="flex flex-col items-center text-center mb-4">
+                            <div class="w-40 h-40 rounded-full overflow-hidden mb-6 shadow-lg">
+                                <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui.webp" alt="Taraj Khan" class="w-full h-auto"
+                                    width="948" height="1284">
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Asim Siddiqui</h3>
+                            <p class="text-lg font-semibold mb-1">Co Founder and Director - Oracle Cloud & Cybersecurity Specialist</p>
+                        </div>
+
+                        <div class="space-y-6">
+
+                            <div class="space-y-3">
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm">Certified Oracle Cloud subject-matter expert (HCM, SCM,
+                                        ERP, FDI, OCI)</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm">15+ years Big-5 consulting background</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                    <p class="text-gray-600 text-sm"> 5+ years of founder/CEO experience in Oracle consulting
+                                        and managed services
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-4">Core expertise:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">Managed services and staffing for Oracle programs</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm"> Oracle Cloud Security consulting across applications and infrastructure</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm">Oracle Cloud HCM consulting at scale</p>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                                        <p class="text-gray-600 text-sm"> Operating models that keep controls strong post-go-live</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -284,128 +407,6 @@
         </div>
     </section>
 
-    <section class="bg-[#EFEFEF]">
-        <div class="container mx-auto px-4 mt-5 sm:mt-10 py-10">
-            <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
-                    Leadership Snapshot
-                </h2>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-6xl mx-auto mt-4 md:mt-10">
-                <div class="leader-card bg-white rounded-2xl shadow-lg overflow-hidden">
-                    <div class="p-8">
-                        <div class="flex flex-col items-center text-center mb-4">
-                            <div class="w-40 h-40 rounded-full overflow-hidden mb-6 shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/images/taraj-khan-image.webp" alt="Taraj Khan" class="w-full h-auto"
-                                    width="948" height="1284">
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Taraj Khan</h3>
-                            <p class="text-lg font-semibold  mb-1">Co-Founder and Director – Oracle Security & Risk Management Expert</p>
-                        </div>
-
-                        <div class="space-y-6">
-                            <div class="space-y-3">
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">managing Support, Leadership, and Project Management.</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">both in US and Global markets. </p>
-                                    </div>
-                                </div>
-
-                            <div>
-                                <h4 class="text-lg font-bold text-gray-800 mb-4">Core expertise:</h4>
-                                <div class="space-y-3">
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Specialize in Oracle Cloud Governance, Risk & Compliance.</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">•	Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle License Management & Optimization to reduce Cost.</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">ERP Managed Services, Advisory, Consulting & Staffing</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="leader-card bg-white rounded-2xl shadow-lg overflow-hidden">
-                    <div class="p-8">
-                        <div class="flex flex-col items-center text-center mb-4">
-                            <div class="w-40 h-40 rounded-full overflow-hidden mb-6 shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui.webp" alt="Taraj Khan" class="w-full h-auto"
-                                    width="948" height="1284">
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Asim Siddiqui</h3>
-                            <p class="text-lg font-semibold mb-1">Co Founder and Director - Oracle Cloud & Cybersecurity Specialist</p>
-                        </div>
-
-                        <div class="space-y-6">
-                            
-                            <div class="space-y-3">
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Certified Oracle Cloud subject-matter expert (HCM, SCM,
-                                            ERP, FDI, OCI)</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">15+ years Big-5 consulting background</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">      5+ years of founder/CEO experience in Oracle consulting
-                                            and managed services
-</p>
-                                    </div>
-                                </div>
-
-                            <div>
-                                <h4 class="text-lg font-bold text-gray-800 mb-4">Core expertise:</h4>
-                                <div class="space-y-3">
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Managed services and staffing for Oracle programs</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">    Oracle Cloud Security consulting across applications and infrastructure</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">Oracle Cloud HCM consulting at scale</p>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">    Operating models that keep controls strong post-go-live</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <script defer>
         const swiper = new Swiper('.about_swiper', {
@@ -446,7 +447,7 @@
         }
     </style>
 
-<section class="py-5 md:py-10">
+    <section class="py-5 md:py-10">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-left sm:text-center mb-4">
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl uppercase text-[#7B74E6]">
