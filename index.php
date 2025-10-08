@@ -758,46 +758,67 @@
     </section>
 
     <section>
-    <div class="container mx-auto p-4 mt-5 sm:mt-10">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
-                Trusted by Industry Leaders Worldwide
-            </h2>
-        </div>
+        <div class="container mx-auto p-4 mt-5 sm:mt-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
+                    Trusted by Industry Leaders Worldwide
+                </h2>
+            </div>
 
-        <div class="mt-5 sm:mt-10">
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-center justify-items-center">
-                <div class="flex items-center justify-center p-4">
-                    <img src="https://boffinbrains.in/erp/assets/images/iflowsoft-logo.jpg" 
-                        alt="iFlowsoft" 
-                        loading="lazy" 
-                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                </div>
-
-                <div class="flex items-center justify-center p-4">
-                    <img src="https://boffinbrains.in/erp/assets/images/qbotica-logo.webp" 
-                        alt="qBotica" 
-                        loading="lazy" 
-                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                </div>
-
-                <div class="flex items-center justify-center p-4">
-                    <img src="https://boffinbrains.in/erp/assets/images/technicax-logo.jpeg" 
-                        alt="Technicax" 
-                        loading="lazy" 
-                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                </div>
-
-                <div class="flex items-center justify-center p-4">
-                    <img src="https://boffinbrains.in/erp/assets/images/techedge-logo.webp" 
-                        alt="TechEdge" 
-                        loading="lazy" 
-                        class="max-w-[140px] sm:max-w-[160px] h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+            <div class="mt-5 sm:mt-10">
+                <div class="swiper logosSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.svg"
+                                alt="Indiana University Health" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.png"
+                                alt="Kaiser Permanente" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png"
+                                alt="Exelon" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg"
+                                alt="Twilio" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.png"
+                                alt="Dept of Energy" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.png"
+                                alt="Blue Cross Blue Shield" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.png"
+                                alt="ACCO Engineered Systems" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.png"
+                                alt="GKN Wheels" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center p-4">
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.svg"
+                                alt="J.P. Morgan Chase" loading="lazy"
+                                class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
 
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
@@ -1384,6 +1405,34 @@
             const submitBtn = this.querySelector('button[type="submit"]');
             submitBtn.disabled = true;
             submitBtn.innerHTML = 'Sending... ⏳';
+        });
+    </script>
+
+    <script defer>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Swiper('.logosSwiper', {
+                loop: true, // Enable continuous loop
+                slidesPerView: 2, // Show 2 slides on smaller screens
+                spaceBetween: 20,
+                autoplay: {
+                    delay: 2500, // Faster autoplay for logos
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.logos-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 3, // Show 3 slides on sm screens
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 4, // Show 4 slides on lg screens
+                        spaceBetween: 40,
+                    },
+                },
+            });
         });
     </script>
 </body>
