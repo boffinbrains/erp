@@ -222,7 +222,7 @@
                         <div class="flex flex-col justify-center order-2 xl:order-1">
                             <div class="relative rounded-2xl overflow-hidden video-container video-glow"
                                 id="videoContainer">
-                                <video preload="none" poster="../assets/videos/video-thumbnail.jpg"
+                                <video preload="none" poster="https://boffinbrains.in/erp/assets/videos/video-thumbnail.jpg"
                                     class="w-full h-auto lazy-video" id="heroVideo">
                                     Your browser does not support the video tag.
                                 </video>
@@ -769,47 +769,47 @@
                 <div class="swiper logosSwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.svg"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.webp"
                                 alt="Indiana University Health" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.png"
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.webp"
                                 alt="Kaiser Permanente" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.webp"
                                 alt="Exelon" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.webp"
                                 alt="Twilio" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.png"
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.webp"
                                 alt="Dept of Energy" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.png"
+                            <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.webp"
                                 alt="Blue Cross Blue Shield" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.png"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.webp"
                                 alt="ACCO Engineered Systems" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.png"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.webp"
                                 alt="GKN Wheels" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.svg"
+                            <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.webp"
                                 alt="J.P. Morgan Chase" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
@@ -1018,7 +1018,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.png"
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.webp"
                                     alt="Dept of Energy" class="h-8 object-contain">
                             </div>
                             <blockquote>
@@ -1038,7 +1038,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.png"
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.webp"
                                     alt="BCBS" class="h-8 object-contain">
                             </div>
                             <blockquote>
@@ -1058,7 +1058,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.png"
+                                <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.webp"
                                     alt="Kaiser Permanente" class="h-8 object-contain">
                             </div>
                             <blockquote>
@@ -1078,7 +1078,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.png"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.webp"
                                     alt="ACCO Engineered Systems" class="h-8 object-contain">
                             </div>
                             <blockquote>
@@ -1098,7 +1098,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.png"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.webp"
                                     alt="GKN Wheels" class="h-8 object-contain">
                             </div>
                             <blockquote>
@@ -1118,7 +1118,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.svg"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.webp"
                                     alt="Indiana University Health" class="h-12 object-contain">
                             </div>
                             <blockquote>
@@ -1138,7 +1138,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.webp"
                                     alt="Twilio" class="h-10 object-contain">
                             </div>
                             <blockquote>
@@ -1158,7 +1158,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.webp"
                                     alt="Exelon" class="h-10 object-contain">
                             </div>
                             <blockquote>
@@ -1178,7 +1178,7 @@
                     <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
                         <figure class="flex flex-col h-full justify-between">
                             <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.svg"
+                                <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.webp"
                                     alt="J.P. Morgan Chase" class="h-6 object-contain">
                             </div>
                             <blockquote>
