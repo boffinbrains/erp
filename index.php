@@ -848,7 +848,7 @@
                                     <p class="text-base md:text-xl font-semibold">
                                         Co-Founder and Director – Oracle Security & Risk Management Expert
                                     </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
+                                    <ul class="list-disc text-sm sm:text-base">
                                       <p>Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership, and project management across both US and global markets.</p>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">
@@ -882,7 +882,7 @@
                                     <p class="text-base md:text-xl font-semibold">
                                         Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
                                     </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
+                                    <ul class="list-disc text-sm sm:text-base">
                                     <p>Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI) with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO in Oracle consulting and managed services.</p>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">

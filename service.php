@@ -673,11 +673,6 @@
                                     "ERP Security Experts supported our government systems with stringent compliance, security audits, and robust access control."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Director, IT Security, Dept of Energy
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -693,11 +688,6 @@
                                     "Their solutions helped us secure sensitive patient data, align with healthcare compliance, and streamline our ERP workflows."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CIO, Blue Cross Blue Shield
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -713,11 +703,6 @@
                                     "We improved ERP security, role design, and compliance posture with their team’s expertise."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    IT Director, Kaiser Permanente
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -733,11 +718,6 @@
                                     "Their ERP integration significantly streamlined our project workflows and improved system-wide security compliance."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CIO, ACCO Engineered Systems
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -753,11 +733,6 @@
                                     "Their robust ERP audit and optimization helped align our global operations with compliance standards efficiently."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Head of IT, GKN Wheels
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -773,11 +748,6 @@
                                     "Their automated risk controls and continuous monitoring gave us confidence in meeting compliance requirements. ERP Security Experts have been a trusted partner in our security journey."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CISO, Indiana University Health
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -793,11 +763,6 @@
                                     "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their solutions gave us both cost savings and a stronger security posture."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    ERP Applications Manager, Twilio
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -813,11 +778,6 @@
                                     "With license optimization and automated security checks, we improved ERP efficiency while cutting unnecessary costs. ERP Security Experts ensured our systems remain secure and compliant."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Senior Manager, Exelon
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -833,11 +793,6 @@
                                     "ERP Security Experts helped us enforce tighter SoD policies and streamline role design across our global ERP landscape. Their expertise in risk management has been invaluable."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Director of Internal Audit, J.P. Morgan Chase
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
