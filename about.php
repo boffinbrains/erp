@@ -241,16 +241,7 @@
                         <div class="space-y-6">
                             <div class="space-y-3">
                                 <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm">Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.</p>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm">managing Support, Leadership, and Project Management.</p>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm">both in US and Global markets. </p>
+                                    <p class="text-gray-600 text-sm">Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership, and project management across both US and global markets.</p>
                                 </div>
                             </div>
 
@@ -267,7 +258,7 @@
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                        <p class="text-gray-600 text-sm">• Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</p>
+                                        <p class="text-gray-600 text-sm">Assess company/client SOX, SOD, ITAC, and ITGC frameworks and automate them into RMC controls.</p>
                                     </div>
                                     <div class="flex items-start">
                                         <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -297,19 +288,8 @@
 
                             <div class="space-y-3">
                                 <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm">Certified Oracle Cloud subject-matter expert (HCM, SCM,
-                                        ERP, FDI, OCI)</p>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm">15+ years Big-5 consulting background</p>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                    <p class="text-gray-600 text-sm"> 5+ years of founder/CEO experience in Oracle consulting
-                                        and managed services
-                                    </p>
+                          
+                                    <p class="text-gray-600 text-sm">Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI) with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO in Oracle consulting and managed services.</p>
                                 </div>
                             </div>
 

@@ -849,15 +849,7 @@
                                         Co-Founder and Director – Oracle Security & Risk Management Expert
                                     </p>
                                     <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>
-                                            Over (25+) years of Oracle ERP experience in managing end-to-end Implementations.
-                                        </li>
-                                        <li>
-                                            managing Support, Leadership, and Project Management.
-                                        </li>
-                                        <li>
-                                            both in US and Global markets.
-                                        </li>
+                                      <p>Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership, and project management across both US and global markets.</p>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">
                                         Core expertise:
@@ -869,7 +861,7 @@
                                         <li>
                                             Specialize in Oracle Cloud Governance, Risk & Compliance.
                                         </li>
-                                        <li>Reviewing & Automating SOD, SOX, ITAC & ITGC into Oracle RMC Controls</li>
+                                        <li>Assess company/client SOX, SOD, ITAC, and ITGC frameworks and automate them into RMC controls.</li>
                                         <li>Oracle License Management & Optimization to reduce Cost.</li>
                                         <li>
                                             ERP Managed Services, Advisory, Consulting & Staffing
@@ -891,16 +883,7 @@
                                         Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
                                     </p>
                                     <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>
-                                            Certified Oracle Cloud subject-matter expert (HCM, SCM,
-                                            ERP, FDI, OCI)
-                                        </li>
-                                        <li>15+ years Big-5 consulting background</li>
-                                        <li>
-                                            5+ years of founder/CEO experience in Oracle consulting
-                                            and managed services
-
-                                        </li>
+                                    <p>Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI) with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO in Oracle consulting and managed services.</p>
                                     </ul>
                                     <p class="text-sm sm:text-base font-semibold">
                                         Core expertise:
@@ -1026,11 +1009,6 @@
                                     "ERP Security Experts supported our government systems with stringent compliance, security audits, and robust access control."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Director, IT Security, Dept of Energy
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1046,11 +1024,6 @@
                                     "Their solutions helped us secure sensitive patient data, align with healthcare compliance, and streamline our ERP workflows."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CIO, Blue Cross Blue Shield
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1066,11 +1039,6 @@
                                     "We improved ERP security, role design, and compliance posture with their team’s expertise."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    IT Director, Kaiser Permanente
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1086,11 +1054,6 @@
                                     "Their ERP integration significantly streamlined our project workflows and improved system-wide security compliance."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CIO, ACCO Engineered Systems
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1106,11 +1069,6 @@
                                     "Their robust ERP audit and optimization helped align our global operations with compliance standards efficiently."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Head of IT, GKN Wheels
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1126,11 +1084,6 @@
                                     "Their automated risk controls and continuous monitoring gave us confidence in meeting compliance requirements. ERP Security Experts have been a trusted partner in our security journey."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    CISO, Indiana University Health
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1146,11 +1099,6 @@
                                     "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their solutions gave us both cost savings and a stronger security posture."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    ERP Applications Manager, Twilio
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1166,11 +1114,6 @@
                                     "With license optimization and automated security checks, we improved ERP efficiency while cutting unnecessary costs. ERP Security Experts ensured our systems remain secure and compliant."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Senior Manager, Exelon
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
@@ -1186,11 +1129,6 @@
                                     "ERP Security Experts helped us enforce tighter SoD policies and streamline role design across our global ERP landscape. Their expertise in risk management has been invaluable."
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-3 text-center">
-                                <div class="font-medium text-gray-900 text-xs">
-                                    Director of Internal Audit, J.P. Morgan Chase
-                                </div>
-                            </figcaption>
                         </figure>
                     </div>
 
