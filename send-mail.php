@@ -11,7 +11,6 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $company = $_POST['company'] ?? 'N/A';
-$contact = $_POST['contact'] ?? 'N/A';
 $redirectUrl = $_POST['redirect_url'] ?? '/';
 $source = $_POST['source'] ?? 'direct';
 

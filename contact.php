@@ -238,7 +238,7 @@
                             <form action="send-mail.php" method="POST" id="contactForm" class="lg:max-w-xl space-y-4">
                                 <input type="hidden" name="redirect_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
                                 <input type="hidden" name="source" value="Contact page">
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div class="space-y-1">
                                         <label class="font-medium">Full Name <span class="text-red-500">*</span></label>
                                         <input type="text" name="name" required
@@ -249,16 +249,12 @@
                                         <input type="email" name="email" required
                                             class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
                                     </div>
-                                    <div class="space-y-1">
+                                    <div class="space-y-1 md:col-span-2">
                                         <label class="font-medium">Company Name</label>
                                         <input type="text" name="company"
                                             class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
                                     </div>
-                                    <div class="space-y-1">
-                                        <label class="font-medium">Contact Number (Optional)</label>
-                                        <input type="text" name="contact"
-                                            class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
-                                    </div>
+                                    
                                 </div>
                                 <div class="space-y-1">
                                     <label class="font-medium">Message <span class="text-red-500">*</span></label>
@@ -276,7 +272,6 @@
             </div>
         </div>
     </section>
-
     <section>
         <div class="container mx-auto p-4 my-5 sm:my-10">
             <div class="grid md:grid-cols-2 gap-4">
@@ -288,7 +283,6 @@
                     <div>
                         <p class="text-xl font-semibold">Taraj Khan </p>
                         <p class="text-xl font-semibold">Co-Founder and Director – Oracle Security & Risk Management Expert</p>
-                        <p class="mt-4">Direct Phone: <a href="tel:+1 602 690 9228">+1 602 690 9228</a></p>
                         <p>Email: <a href="mailto:tkhan@erpsecurityexperts.com">tkhan@erpsecurityexperts.com</a></p>
                     </div>
                 </div>
@@ -301,7 +295,6 @@
                     <div>
                         <p class="text-xl font-semibold">Asim Siddiqui</p>
                         <p class="text-xl font-semibold">Co Founder and Director - Oracle Cloud & Cybersecurity Specialist</p>
-                        <p class="mt-4">Direct Phone: <a href="tel:+1 414 217 7715">+1 414 217 7715</a></p>
                         <p>Email: <a href="mailto:asiddiqui@erpsecurityexperts.com">asiddiqui@erpsecurityexperts.com</a></p>
                     </div>
                 </div>

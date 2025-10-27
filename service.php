@@ -229,7 +229,7 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Security Assessment</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Security Assessments</h3>
                     <p class="text-sm italic mb-2">Uncover vulnerabilities, strengthen ERP defences.</p>
                     <div class="text-left"
                         x-data="expandableText(`We help organizations evaluate the security posture of their Oracle ERP Cloud. Our security assessment identifies gaps in access management, user privileges, and system controls that may expose your ERP to risk. Through comprehensive reviews and automated testing, we highlight vulnerabilities, recommend corrective actions, and deliver a clear roadmap to strengthen your ERP Security. This ensures you meet compliance standards and maintain continuous protection across critical business processes.`)">
@@ -260,7 +260,7 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Risk Assessment</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Risk Assessments</h3>
                     <p class="text-sm italic mb-2">Stay ahead of threats with proactive risk insights.</p>
 
                     <div class="text-left" x-data="expandableText(`Our risk assessment services provide proactive insights into threats impacting your Oracle ERP environment. We analyze transactions, access patterns, and control
@@ -293,7 +293,7 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Segregation of Duties (SoD)</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">SoD Compliances</h3>
                     <p class="text-sm italic mb-2">Prevent conflicts, enforce compliance, and protect operations.</p>
                     <div class="text-left"
                         x-data="expandableText(`Conflicts in user roles can result in financial fraud, compliance failures, and audit issues. Our SoD services enforce rigorous controls by detecting and remediating role conflicts across your ERP Cloud. We design preventive and detective SoD policies, automate conflict monitoring, and provide
@@ -322,7 +322,7 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Role Design</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Role Designs</h3>
                     <p class="text-sm italic mb-2">Simplify access with efficient, compliant role structures.</p>
                     <div class="text-left"
                         x-data="expandableText(`A well-structured role design is the foundation of ERP Security. We specialize in creating efficient, business-aligned roles that balance usability and compliance.
@@ -357,7 +357,7 @@
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">License Management</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">License Managements</h3>
                     <p class="text-sm italic mb-2">Optimize Oracle ERP licenses, cut costs, and stay compliant.</p>
                     <div class="text-left"
                         x-data="expandableText(`Oracle ERP Cloud licenses are a significant investment and mismanagement leads to unnecessary costs. Our license management services help you optimize license utilization, prevent overspending, and maintain compliance with Oracle policies. We provide detailed tracking of license usage, identify underutilized entitlements, and guide you in aligning your licenses with actual business needs. The result is maximum efficiency, reduced expenses, and complete control over your Oracle ERP Cloud licensing.`)">
@@ -416,7 +416,7 @@
     </style>
 
     <section>
-        <div class="container mx-auto p-4 mt-5 sm:mt-10">
+        <div class="container mx-auto p-4 my-5 sm:my-10">
             <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">Why Choose <span class="text-[#9972FF]">Us</span>
                 </h2>
@@ -649,177 +649,6 @@
             border: 2px solid #000;
         }
     </style>
-
-    <section class="py-5 md:py-10">
-        <div class="container mx-auto px-4">
-            <div class="max-w-3xl mx-auto text-left sm:text-center mb-4">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl uppercase text-[#7B74E6]">
-                    Client Testimonials
-                </h2>
-            </div>
-
-            <div class="swiper testimonialSwiper">
-                <div class="swiper-wrapper" id="testimonials-wrapper">
-
-                    <!-- Dept of Energy -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.png"
-                                    alt="Dept of Energy" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts supported our government systems with stringent compliance, security audits, and robust access control."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- BCBS -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.png"
-                                    alt="BCBS" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their solutions helped us secure sensitive patient data, align with healthcare compliance, and streamline our ERP workflows."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- Kaiser Permanente -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.png"
-                                    alt="Kaiser Permanente" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "We improved ERP security, role design, and compliance posture with their team’s expertise."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- ACCO Engineered Systems -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.png"
-                                    alt="ACCO Engineered Systems" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their ERP integration significantly streamlined our project workflows and improved system-wide security compliance."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- GKN Wheels -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.png"
-                                    alt="GKN Wheels" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their robust ERP audit and optimization helped align our global operations with compliance standards efficiently."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Indiana University Health -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.svg"
-                                    alt="Indiana University Health" class="h-12 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their automated risk controls and continuous monitoring gave us confidence in meeting compliance requirements. ERP Security Experts have been a trusted partner in our security journey."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Twilio -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.svg"
-                                    alt="Twilio" class="h-10 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their solutions gave us both cost savings and a stronger security posture."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Exelon -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.png"
-                                    alt="Exelon" class="h-10 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "With license optimization and automated security checks, we improved ERP efficiency while cutting unnecessary costs. ERP Security Experts ensured our systems remain secure and compliant."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: JPMorgan Chase -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.svg"
-                                    alt="J.P. Morgan Chase" class="h-6 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts helped us enforce tighter SoD policies and streamline role design across our global ERP landscape. Their expertise in risk management has been invaluable."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                </div>
-
-                <div class="swiper-pagination static"></div>
-            </div>
-
-            <script defer>
-                document.addEventListener('DOMContentLoaded', function() {
-                    new Swiper('.testimonialSwiper', {
-                        loop: false,
-                        slidesPerView: 'auto',
-                        spaceBetween: 20,
-                        autoplay: {
-                            delay: 5000,
-                            disableOnInteraction: false,
-                        },
-                        pagination: {
-                            el: '.swiper-pagination',
-                            clickable: true,
-                        },
-                    });
-                });
-            </script>
-        </div>
-    </section>
     <?php include 'footer.php'; ?>
 </body>
 
