@@ -123,7 +123,6 @@
                     0 0 80px rgba(19, 254, 254, 0.3),
                     inset 0 2px 20px rgba(255, 255, 255, 0.3);
             }
-
             50% {
                 transform: translateY(-10px) scale(1.05);
                 box-shadow: 0 0 60px rgba(19, 254, 254, 0.8),
@@ -131,7 +130,6 @@
                     inset 0 2px 30px rgba(255, 255, 255, 0.4);
             }
         }
-
         .play-icon {
             filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
         }
@@ -180,15 +178,12 @@
                 </button>
             </div>
         </div>
-
         <div x-show="scrolled" class="h-18"></div>
-
         <div class="absolute inset-0">
             <img src="https://boffinbrains.in/erp/assets/images/background.webp" alt="Background"
                 class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-[#030F47]/70"></div>
         </div>
-
         <div
             class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full text-center text-white">
             <nav class="flex justify-between items-center py-4">
@@ -197,14 +192,12 @@
                         <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt=""
                             class="h-[60px] lg:h-[78px] w-auto" width="133" height="78" />
                     </a>
-
                     <div class="hidden lg:flex items-center space-x-6">
                         <a href="./index.php" class="hover:text-gray-300 transition-colors">Home</a>
                         <a href="./about.php" class="hover:text-gray-300 transition-colors">About Us</a>
                         <a href="./service.php" class="hover:text-gray-300 transition-colors">Our Services</a>
                         <a href="./contact.php" class="hover:text-gray-300 transition-colors">Contact Us</a>
                     </div>
-
                     <button @click="mobileMenuOpen = true"
                         class="lg:hidden p-2 rounded-md text-white hover:text-gray-300 transition-colors">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -215,7 +208,6 @@
                     </button>
                 </div>
             </nav>
-
             <div class="mt-auto mb-auto py-5">
                 <div class="container mx-auto text-left">
                     <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
@@ -226,7 +218,6 @@
                                     class="w-full h-auto lazy-video" id="heroVideo">
                                     Your browser does not support the video tag.
                                 </video>
-
                                 <button
                                     class="absolute inset-0 flex items-center justify-center z-10 transition-opacity duration-300"
                                     id="customPlayBtn">
@@ -240,25 +231,14 @@
                                 </button>
                             </div>
                         </div>
-
                         <div class="flex flex-col justify-center order-1 xl:order-2">
                             <div>
-                                <h1
-                                    class="font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight uppercase text-white mb-4">
-                                    EMPOWERING SECURE ORACLE ERP EXCELLENCE
-                                </h1>
-
-                                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-white mb-6">
-                                    We help companies to secure their <span
-                                        class="gradient-text font-bold text-xl md:text-2xl lg:text-3xl">Oracle
+                                <h1 class="font-bold  text-2xl md:text-3xl lg:text-4xl leading-relaxed text-white mb-6">
+                                    We help companies secure their <span
+                                        class="gradient-text font-bold text-2xl md:text-3xl lg:text-4xl">Oracle
                                         ERP</span> to ensure Compliance, Governance and Audits
-                                </p>
-
-                                <div class="flex flex-col sm:flex-row gap-4">
-                                    <a href="./service.php"
-                                        class="bg-white text-black rounded-full py-2.5 px-8 text-base lg:text-lg font-semibold flex-1 text-center transition-all duration-300 hover:bg-gray-100 hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
-                                        Explore Services
-                                    </a>
+                                </h1>
+                                <div class="flex">
                                     <a href="./contact.php"
                                         class="bg-[#13FEFE] text-black rounded-full py-2.5 px-8 text-base lg:text-lg font-semibold flex-1 text-center transition-all duration-300 hover:bg-[#0ee8e8] hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                                         Let's Talk
@@ -267,59 +247,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-center items-center mt-10">
-                        <div class="flex flex-wrap gap-3 mb-6">
-                            <div
-                                class="service-tag flex items-center px-4 py-2 gap-2 rounded-lg text-black text-sm shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/icons/security.svg" alt="Security"
-                                    width="18" height="18" />
-                                <p class="font-medium text-xs md:text-base">Security Assessment</p>
-                            </div>
-
-                            <div
-                                class="service-tag flex items-center px-4 py-2 gap-2 rounded-lg text-black text-sm shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/icons/risk-assesment.svg" alt="Risk"
-                                    width="18" height="18" />
-                                <p class="font-medium text-xs md:text-base">Risk Assessment</p>
-                            </div>
-
-                            <div
-                                class="service-tag flex items-center px-4 py-2 gap-2 rounded-lg text-black text-sm shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/icons/segregation-of-duties.svg" alt="SoD"
-                                    width="18" height="18" />
-                                <p class="font-medium text-xs md:text-base">SoD</p>
-                            </div>
-
-                            <div
-                                class="service-tag flex items-center px-4 py-2 gap-2 rounded-lg text-black text-sm shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/icons/role-design.svg" alt="Role Design"
-                                    width="18" height="18" />
-                                <p class="font-medium text-xs md:text-base">Role Design</p>
-                            </div>
-
-                            <div
-                                class="service-tag flex items-center px-4 py-2 gap-2 rounded-lg text-black text-sm shadow-lg">
-                                <img src="https://boffinbrains.in/erp/assets/icons/liscence-management.svg"
-                                    alt="License" width="18" height="18" />
-                                <p class="font-medium text-xs md:text-base">Licence Management</p>
-                            </div>
-                        </div>
-
-                        <p class="text-sm md:text-base leading-relaxed text-gray-300">
-                            Trusted guidance, practical fixes, and measurable results for modern Security, Risk
-                            and IT teams.
-                        </p>
-                    </div>
+                    
                 </div>
             </div>
         </div>
-
         <div x-show="mobileMenuOpen" @click="mobileMenuOpen = false"
             x-transition:enter="transition-opacity ease-linear duration-300" x-transition:enter-start="opacity-0"
             x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-linear duration-300"
             x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
             class="fixed inset-0 z-[50] bg-black bg-opacity-50 lg:hidden"></div>
-
         <div x-show="mobileMenuOpen" x-transition:enter="transform transition ease-in-out duration-500"
             x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
             x-transition:leave="transform transition ease-in-out duration-500" x-transition:leave-start="translate-x-0"
@@ -341,7 +277,6 @@
                     </svg>
                 </button>
             </div>
-
             <div class="flex-1 overflow-y-auto p-4">
                 <div class="space-y-6">
                     <a href="./index.php" @click="mobileMenuOpen = false"
@@ -359,54 +294,57 @@
             </div>
         </div>
     </header>
-
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto">
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl text-left sm:text-center uppercase">
-                    To Automate ERP Security and Risk Management
-                    <!-- HELPING GLOBAL CLIENTS AUTOMATE AUDIT & ERP RISK MANAGEMENT -->
+                    Our Services
                 </h2>
             </div>
         </div>
-
         <div class="bg-[#E2E2E2] mt-20 md:mt-24 pb-10">
             <div class="container mx-auto p-4 relative z-10" x-data="{ activeTab: 'secure-erp' }">
                 <div class="bg-white overflow-hidden max-w-6xl mx-auto -mt-[90px]">
-                    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 bg-white">
+                    <div class="grid grid-cols-2 md:grid-cols-6 gap-4 bg-white">
                         <button @click="activeTab = 'secure-erp'"
                             :class="activeTab === 'secure-erp' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'secure-erp' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">Security Assessment</span>
+                            <span class="block">Security Assessments</span>
                         </button>
 
                         <button @click="activeTab = 'risk-intelligence'"
                             :class="activeTab === 'risk-intelligence' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'risk-intelligence' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">Risk Assessment</span>
+                            <span class="block">Risk Assessments</span>
                         </button>
 
                         <button @click="activeTab = 'compliance'"
                             :class="activeTab === 'compliance' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'compliance' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">Segregation of Duties (SoD)</span>
+                            <span class="block">SoD Compliances</span>
                         </button>
 
                         <button @click="activeTab = 'innovation'"
                             :class="activeTab === 'innovation' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'innovation' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">Role Design</span>
+                            <span class="block">Role Designs</span>
                         </button>
 
                         <button @click="activeTab = 'license-management'"
                             :class="activeTab === 'license-management' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'license-management' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">Oracle ERP Cloud License Management</span>
+                            <span class="block">Oracle ERP Cloud License Managements</span>
+                        </button>
+                        <button @click="activeTab = 'audit-certifications'"
+                            :class="activeTab === 'audit-certifications' ? 'text-gray-900' : 'text-gray-600'"
+                            class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
+                            :style="activeTab === 'audit-certifications' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
+                            <span class="block">Risk/Audit Certifications</span>
                         </button>
                     </div>
 
@@ -430,9 +368,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
-                                                We Secure
-                                                ERP</a>
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
@@ -457,9 +393,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
-                                                We Secure
-                                                ERP</a>
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
@@ -483,9 +417,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
-                                                We Secure
-                                                ERP</a>
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
@@ -509,9 +441,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
-                                                We Secure
-                                                ERP</a>
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
@@ -533,9 +463,7 @@
                                         </p>
 
                                         <div class="flex justify-between items-center gap-4">
-                                            <a href="./service.php" class="text-gradient text-xl font-semibold">See How
-                                                We Secure
-                                                ERP</a>
+                                            <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
@@ -551,7 +479,6 @@
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <p class="text-[#3945A2] font-semibold">OUr INdustries</p>
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
                     Who We Serve
                 </h2>
@@ -564,26 +491,7 @@
                             <div>
                                 <img src="./assets/icons/it-teams.svg" alt="IT teams">
                             </div>
-                            <a href="./service.php" class="font-semibold flex items-center gap-2">
-                                <span>View Service</span>
-                                <div class="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_16_68)">
-                                            <path
-                                                d="M25.4564 28.7199L28.5597 21.0033M28.5597 21.0033L20.8431 17.8999M28.5597 21.0033L17.7398 25.6165M36.6747 17.5433C39.8595 25.0129 36.386 33.65 28.9164 36.8348C21.4468 40.0196 12.8097 36.5461 9.6249 29.0765C6.44008 21.6069 9.91357 12.9698 17.3832 9.78502C24.8527 6.6002 33.4898 10.0737 36.6747 17.5433Z"
-                                                stroke="black" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_16_68">
-                                                <rect width="35.2871" height="35.2871" fill="black"
-                                                    transform="translate(0 14) rotate(-23.092)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </div>
-                            </a>
+                            
                         </div>
 
                         <p class="font-bold text-xl mt-4">IT Teams</p>
@@ -597,29 +505,10 @@
                             <div>
                                 <img src="./assets/icons/information-security.svg" alt="information Security">
                             </div>
-                            <a href="./service.php" class="font-semibold flex items-center gap-2">
-                                <span>View Service</span>
-                                <div class="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_16_68)">
-                                            <path
-                                                d="M25.4564 28.7199L28.5597 21.0033M28.5597 21.0033L20.8431 17.8999M28.5597 21.0033L17.7398 25.6165M36.6747 17.5433C39.8595 25.0129 36.386 33.65 28.9164 36.8348C21.4468 40.0196 12.8097 36.5461 9.6249 29.0765C6.44008 21.6069 9.91357 12.9698 17.3832 9.78502C24.8527 6.6002 33.4898 10.0737 36.6747 17.5433Z"
-                                                stroke="black" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_16_68">
-                                                <rect width="35.2871" height="35.2871" fill="black"
-                                                    transform="translate(0 14) rotate(-23.092)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </div>
-                            </a>
+                            
                         </div>
 
-                        <p class="font-bold text-xl mt-4">Information Security</p>
+                        <p class="font-bold text-xl mt-4">Information Security Teams</p>
                         <p class="text-sm sm:text-base mt-1">Strengthen your ERP Security posture with continuous
                             monitoring, SoD conflict detection, and identity governance. Maintain consistent controls,
                             protect sensitive data, and meet compliance standards with ease.</p>
@@ -630,29 +519,10 @@
                             <div>
                                 <img src="./assets/icons/compliance-risk.svg" alt="Compliance & Risk">
                             </div>
-                            <a href="./service.php" class="font-semibold flex items-center gap-2">
-                                <span>View Service</span>
-                                <div class="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_16_68)">
-                                            <path
-                                                d="M25.4564 28.7199L28.5597 21.0033M28.5597 21.0033L20.8431 17.8999M28.5597 21.0033L17.7398 25.6165M36.6747 17.5433C39.8595 25.0129 36.386 33.65 28.9164 36.8348C21.4468 40.0196 12.8097 36.5461 9.6249 29.0765C6.44008 21.6069 9.91357 12.9698 17.3832 9.78502C24.8527 6.6002 33.4898 10.0737 36.6747 17.5433Z"
-                                                stroke="black" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_16_68">
-                                                <rect width="35.2871" height="35.2871" fill="black"
-                                                    transform="translate(0 14) rotate(-23.092)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </div>
-                            </a>
+                            
                         </div>
 
-                        <p class="font-bold text-xl mt-4">Compliance & Risk</p>
+                        <p class="font-bold text-xl mt-4">Compliance & Risk Teams</p>
                         <p class="text-sm sm:text-base mt-1">Simplify compliance with automated audit evidence, access
                             certifications, and risk reporting. Reduce the time, cost, and complexity of staying
                             audit-ready while aligning with regulatory requirements.</p>
@@ -663,29 +533,10 @@
                             <div>
                                 <img src="./assets/icons/finance-&-audit.svg" alt="Finance & Audit">
                             </div>
-                            <a href="./service.php" class="font-semibold flex items-center gap-2">
-                                <span>View Service</span>
-                                <div class="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_16_68)">
-                                            <path
-                                                d="M25.4564 28.7199L28.5597 21.0033M28.5597 21.0033L20.8431 17.8999M28.5597 21.0033L17.7398 25.6165M36.6747 17.5433C39.8595 25.0129 36.386 33.65 28.9164 36.8348C21.4468 40.0196 12.8097 36.5461 9.6249 29.0765C6.44008 21.6069 9.91357 12.9698 17.3832 9.78502C24.8527 6.6002 33.4898 10.0737 36.6747 17.5433Z"
-                                                stroke="black" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_16_68">
-                                                <rect width="35.2871" height="35.2871" fill="black"
-                                                    transform="translate(0 14) rotate(-23.092)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                </div>
-                            </a>
+                            
                         </div>
 
-                        <p class="font-bold text-xl mt-4">Finance & Audit</p>
+                        <p class="font-bold text-xl mt-4">Finance & Audit Teams</p>
                         <p class="text-sm sm:text-base mt-1">Ensure accurate financial reporting with tighter controls
                             and reduced SoD risks. Streamline audit preparation, improve efficiency, and cut costs while
                             safeguarding ERP-driven business processes.</p>
@@ -695,10 +546,9 @@
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <p class="text-[#3945A2] font-semibold">About Us</p>
                 <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
                     Built on Passion, Driven by Integrity
                 </h2>
@@ -755,7 +605,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
@@ -818,98 +668,6 @@
             </div>
         </div>
     </section>
-
-
-    <section>
-        <div class="container mx-auto p-4 mt-5 sm:mt-10">
-            <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
-                    Meet the co-founders
-                </h2>
-            </div>
-            <div class="max-w-5xl mx-auto sm:text-center mt-3 sm:mt-4">
-                <p class="text-lg md:text-xl">
-                    Leadership with proven expertise in ERP Security and Oracle programs, delivering measurable results
-                    and long-term client trust.
-                </p>
-            </div>
-
-            <div class="mt-4 sm:mt-6">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide max-w-[1000px] !w-full rounded-xl overflow-hidden bg-[#F0F0F0]">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                <div class="pt-10 flex justify-center items-end">
-                                    <img src="https://boffinbrains.in/erp/assets/images/taraj-khan.webp"
-                                        alt="Taraj Khan" class="max-h-[450px] w-auto object-contain" />
-                                </div>
-                                <div class="p-4 flex flex-col justify-center space-y-2">
-                                    <h3 class="text-xl md:text-2xl font-bold">Taraj Khan</h3>
-                                    <p class="text-base md:text-xl font-semibold">
-                                        Co-Founder and Director – Oracle Security & Risk Management Expert
-                                    </p>
-                                    <ul class="list-disc text-sm sm:text-base">
-                                      <p>Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership, and project management across both US and global markets.</p>
-                                    </ul>
-                                    <p class="text-sm sm:text-base font-semibold">
-                                        Core expertise:
-                                    </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>
-                                            Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.
-                                        </li>
-                                        <li>
-                                            Specialize in Oracle Cloud Governance, Risk & Compliance.
-                                        </li>
-                                        <li>Assess company/client SOX, SOD, ITAC, and ITGC frameworks and automate them into RMC controls.</li>
-                                        <li>Oracle License Management & Optimization to reduce Cost.</li>
-                                        <li>
-                                            ERP Managed Services, Advisory, Consulting & Staffing
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide max-w-[1000px] !w-full rounded-xl overflow-hidden bg-[#F0F0F0]">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                <div class="pt-10 flex justify-center">
-                                    <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui-image.webp"
-                                        alt="Asim Siddiqui" class="max-h-[450px] w-auto object-contain" />
-                                </div>
-                                <div class="p-4 flex flex-col justify-center space-y-2">
-                                    <h3 class="text-xl md:text-2xl font-bold">Asim Siddiqui</h3>
-                                    <p class="text-base md:text-xl font-semibold">
-                                        Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
-                                    </p>
-                                    <ul class="list-disc text-sm sm:text-base">
-                                    <p>Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI) with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO in Oracle consulting and managed services.</p>
-                                    </ul>
-                                    <p class="text-sm sm:text-base font-semibold">
-                                        Core expertise:
-                                    </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>Managed services and staffing for Oracle programs</li>
-                                        <li>
-                                            Oracle Cloud Security consulting across applications and
-                                            infrastructure
-
-                                        </li>
-                                        <li>Oracle Cloud HCM consulting at scale</li>
-                                        <li>
-                                            Operating models that keep controls strong post-go-live
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination static"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
@@ -984,179 +742,7 @@
             border: 2px solid #000;
         }
     </style>
-
-
-    <section class="py-5 md:py-10">
-        <div class="container mx-auto px-4">
-            <div class="max-w-3xl mx-auto text-left sm:text-center mb-4">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl uppercase text-[#7B74E6]">
-                    Client Testimonials
-                </h2>
-            </div>
-
-            <div class="swiper testimonialSwiper">
-                <div class="swiper-wrapper" id="testimonials-wrapper">
-
-                    <!-- Dept of Energy -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.webp"
-                                    alt="Dept of Energy" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts supported our government systems with stringent compliance, security audits, and robust access control."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- BCBS -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.webp"
-                                    alt="BCBS" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their solutions helped us secure sensitive patient data, align with healthcare compliance, and streamline our ERP workflows."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- Kaiser Permanente -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.webp"
-                                    alt="Kaiser Permanente" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "We improved ERP security, role design, and compliance posture with their team’s expertise."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- ACCO Engineered Systems -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.webp"
-                                    alt="ACCO Engineered Systems" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their ERP integration significantly streamlined our project workflows and improved system-wide security compliance."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- GKN Wheels -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.webp"
-                                    alt="GKN Wheels" class="h-8 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their robust ERP audit and optimization helped align our global operations with compliance standards efficiently."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Indiana University Health -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.webp"
-                                    alt="Indiana University Health" class="h-12 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "Their automated risk controls and continuous monitoring gave us confidence in meeting compliance requirements. ERP Security Experts have been a trusted partner in our security journey."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Twilio -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.webp"
-                                    alt="Twilio" class="h-10 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "The team optimized our Oracle ERP license usage and eliminated SoD conflicts. Their solutions gave us both cost savings and a stronger security posture."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: Exelon -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.webp"
-                                    alt="Exelon" class="h-10 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "With license optimization and automated security checks, we improved ERP efficiency while cutting unnecessary costs. ERP Security Experts ensured our systems remain secure and compliant."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                    <!-- KEEP: JPMorgan Chase -->
-                    <div class="swiper-slide bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm h-[280px] sm:h-[220px] max-w-[450px] !w-full">
-                        <figure class="flex flex-col h-full justify-between">
-                            <div class="flex justify-center mb-3">
-                                <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.webp"
-                                    alt="J.P. Morgan Chase" class="h-6 object-contain">
-                            </div>
-                            <blockquote>
-                                <p class="font-medium text-gray-900 text-center">
-                                    "ERP Security Experts helped us enforce tighter SoD policies and streamline role design across our global ERP landscape. Their expertise in risk management has been invaluable."
-                                </p>
-                            </blockquote>
-                        </figure>
-                    </div>
-
-                </div>
-
-                <div class="swiper-pagination static"></div>
-            </div>
-
-            <script defer>
-                document.addEventListener('DOMContentLoaded', function() {
-                    new Swiper('.testimonialSwiper', {
-                        loop: false,
-                        slidesPerView: 'auto',
-                        spaceBetween: 20,
-                        autoplay: {
-                            delay: 5000,
-                            disableOnInteraction: false,
-                        },
-                        pagination: {
-                            el: '.swiper-pagination',
-                            clickable: true,
-                        },
-                    });
-                });
-            </script>
-        </div>
-    </section>
-
+    
     <section class="p-4 mb-10">
         <div class="max-w-7xl mx-auto mt-5 sm:mt-10 border-2 border-slate-300 rounded-xl">
             <div class="grid lg:grid-cols-2">
@@ -1165,19 +751,16 @@
                         <h2 class="font-bold text-xl sm:text-2xl md:text-4xl text-[#3945A2]">
                             Get In touch
                         </h2>
+                        <p>Tell us what can we help you with.</p>
                     </div>
-                    <div class="mt-3">
-                        <p class="text-lg md:text-xl uppercase">
-                            gET sTARTED WITH YOUR fAVOURITE
-                        </p>
-                    </div>
+                    
                     <?php
                     if (isset($_GET['status']) && $_GET['status'] === 'success') {
                         echo "<div style='color: green;'>Message sent successfully!</div>";
                     }
                     ?>
 
-                    <form action="send-mail.php" method="POST" id="contactForm" class="mt-6 space-y-4">
+                    <form action="send-mail.php" method="POST" id="contactForm" class="mt-2 space-y-4">
                         <input type="hidden" name="redirect_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
                         <input type="hidden" name="source" value="Home page">
                         <div class="grid sm:grid-cols-2 gap-4">
@@ -1186,9 +769,8 @@
                             <input type="email" placeholder="Email" name="email"
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
                             <input type="text" placeholder="Company Name" name="company"
-                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="phone" placeholder="Contact Number" name="phone"
-                                class=" border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
+                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full col-span-2" />
+                            
                         </div>
                         <textarea name="message" placeholder="Message" rows="6" name="message"
                             class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0"></textarea>
@@ -1209,26 +791,6 @@
 
 
     <?php include 'footer.php'; ?>
-
-    <script defer>
-        const swiper = new Swiper(".mySwiper", {
-            loop: false,
-            spaceBetween: 10,
-            slidesPerView: "auto",
-            centeredSlides: false,
-            autoplay: {
-                delay: 5000,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
     <script defer>
         document.addEventListener("DOMContentLoaded", function() {
             const video = document.getElementById('heroVideo');

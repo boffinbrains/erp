@@ -55,13 +55,7 @@
             <div>
                 <h3 class="text-lg font-bold mb-4">Contact</h3>
                 <ul class="space-y-2 text-sm sm:text-base">
-                    <li>
-                        Phone:
-                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 602 690
-                            9228</a> /
-                        <a href="tel:+1 414 217 7715" class="hover:text-[#13FEFE] transition-colors">+1 414 217
-                            7715</a>
-                    </li>
+                    
                     <li>
                         Email:
                         <a href="mailto:tkhan@erpsecurityexperts.com"
