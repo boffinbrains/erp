@@ -34,20 +34,23 @@
                 <h3 class="text-lg font-bold mb-4">Our Services</h3>
                 <ul class="space-y-2">
                     <li>
-                        <a href="" class="hover:text-[#13FEFE] transition-colors">Security Assessment</a>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">Security Assessments</a>
                     </li>
                     <li>
-                        <a href="" class="hover:text-[#13FEFE] transition-colors">Risk Assessment</a>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">Risk Assessments</a>
                     </li>
                     <li>
-                        <a href="" class="hover:text-[#13FEFE] transition-colors">Segregation of Duties (SoD)</a>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">SoD Compliances</a>
                     </li>
                     <li>
-                        <a href="" class="hover:text-[#13FEFE] transition-colors">Role Design</a>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">Role Designs</a>
                     </li>
                     <li>
                         <a href="" class="hover:text-[#13FEFE] transition-colors">Oracle ERP Cloud License
-                            Management</a>
+                            Managements</a>
+                    </li>
+                     <li>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">Risk/Audit Certifications</a>
                     </li>
                 </ul>
             </div>
@@ -55,17 +58,16 @@
             <div>
                 <h3 class="text-lg font-bold mb-4">Contact</h3>
                 <ul class="space-y-2 text-sm sm:text-base">
-                    
+                    <li>
+                        Phone:
+                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 469 277 7728</a>
+                    </li>
                     <li>
                         Email:
-                        <a href="mailto:tkhan@erpsecurityexperts.com"
-                            class="hover:text-[#13FEFE] transition-colors">tkhan@erpsecurityexperts.com</a>
-                        <br>
-                        <a href="mailto:asiddiqui@erpsecurityexperts.com"
-                            class="hover:text-[#13FEFE] transition-colors">asiddiqui@erpsecurityexperts.com</a>
+                        <a href="mailto:contact@erpsecurityexperts.com"
+                            class="hover:text-[#13FEFE] transition-colors">contact@erpsecurityexperts.com</a>
                     </li>
-                    <li>Address: Phoenix, Arizona Office <br> 15650 N Black Canyon Hwy <br> STE B135 <br> Phoenix,
-                        AZ 85053</li>
+                    <li>Address: 7200 W University Dr, Suite 216, McKinney, TX 75071</li>
                 </ul>
             </div>
         </div>

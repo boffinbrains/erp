@@ -312,28 +312,24 @@
                             :style="activeTab === 'secure-erp' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
                             <span class="block">Security Assessments</span>
                         </button>
-
                         <button @click="activeTab = 'risk-intelligence'"
                             :class="activeTab === 'risk-intelligence' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'risk-intelligence' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
                             <span class="block">Risk Assessments</span>
                         </button>
-
                         <button @click="activeTab = 'compliance'"
                             :class="activeTab === 'compliance' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'compliance' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
                             <span class="block">SoD Compliances</span>
                         </button>
-
                         <button @click="activeTab = 'innovation'"
                             :class="activeTab === 'innovation' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'innovation' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
                             <span class="block">Role Designs</span>
                         </button>
-
                         <button @click="activeTab = 'license-management'"
                             :class="activeTab === 'license-management' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
@@ -347,7 +343,6 @@
                             <span class="block">Risk/Audit Certifications</span>
                         </button>
                     </div>
-
                     <div class="p-4">
                         <div class="order-1 md:order-2 md:mt-6">
                             <div x-show="activeTab === 'secure-erp'"
@@ -374,7 +369,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div x-show="activeTab === 'risk-intelligence'"
                                 x-transition:enter="transition ease-out duration-300"
                                 x-transition:enter-start="opacity-0 transform translate-y-4"
@@ -391,7 +385,6 @@
                                         <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
                                             Detect & Report Potential Error & Fraud/Suspicious Transactions on Financials, Procurement, Payroll and other Business Areas.
                                         </p>
-
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
                                             <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
