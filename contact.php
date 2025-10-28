@@ -215,9 +215,11 @@
                 <div class="relative grid lg:grid-cols-2 gap-4 lg:gap-10">
                     <div>
                         <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">Our Location</h2>
-                        <p class="text-base md:text-xl mt-4 leading-relaxed">Phoenix, Arizona Office <br> 15650 N Black
-                            Canyon Hwy <br>
-                            STE B135 <br> Phoenix, AZ 85053 </p>
+
+                        <p class="text-base md:text-xl mt-4 leading-relaxed">7200 W University Dr,  <br>
+                            Suite 216, <br> McKinney, TX 75071</p>
+                            <p class="text-base md:text-xl mt-4 leading-relaxed">Phone:
+                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE]">+1 469 277 7728</a></p>
                         <p class="text-base md:text-xl mt-4 leading-relaxed font-semibold">Service Areas: We serve
                             clients worldwide with expertise in Oracle and SAP environments across all major industries.
                         </p>
