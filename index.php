@@ -661,68 +661,6 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container mx-auto p-4 mt-5 sm:mt-10">
-            <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
-                    Why <span class="text-[#3945A2]">partner</span> with us?
-                </h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
-                <div
-                    class="relative rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
-                    <div class="bg-white rounded-xl p-4 flex flex-col h-full">
-                        <img src="https://boffinbrains.in/erp/assets/images/long-term-goals.webp"
-                            alt="Long-Term Goals icon" loading="lazy" width="140" height="152"
-                            class="max-w-14 h-auto object-contain" />
-                        <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2] mt-2">
-                            Long-Term Goals
-                        </h3>
-                        <p class="text-sm sm:text-base mt-2 flex-grow">
-                            We align security and compliance with business strategy,
-                            building a practical roadmap that supports growth without adding
-                            operational drag.
-                        </p>
-                    </div>
-                </div>
-
-                <div
-                    class="relative rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
-                    <div class="bg-white rounded-xl p-4 flex flex-col h-full">
-                        <img src="https://boffinbrains.in/erp/assets/images/financial-analysis.webp"
-                            alt="Financial Analysis icon" loading="lazy" width="172" height="172"
-                            class="max-w-14 h-auto object-contain" />
-                        <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2] mt-2">
-                            Financial Analysis
-                        </h3>
-                        <p class="text-sm sm:text-base mt-2 flex-grow">
-                            We quantify risk in dollars and time, prioritizing initiatives
-                            by ROI so investments are defensible with Finance and the Board.
-                        </p>
-                    </div>
-                </div>
-
-                <div
-                    class="relative rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
-                    <div class="bg-white rounded-xl p-4 flex flex-col h-full">
-                        <img src="https://boffinbrains.in/erp/assets/images/process-efficiency.webp"
-                            alt="Process Efficiency icon" loading="lazy" width="140" height="152"
-                            class="max-w-14 h-auto object-contain" />
-                        <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2] mt-2">
-                            Process Efficiency
-                        </h3>
-                        <p class="text-sm sm:text-base mt-2 flex-grow">
-                            We remove bottlenecks in access, approvals, and evidence
-                            collection, shortening cycle times while improving control
-                            quality.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <style>
         .swiper-pagination-bullet {
             background: #000;
