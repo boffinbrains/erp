@@ -216,10 +216,16 @@
                     <div>
                         <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">Our Location</h2>
 
-                        <p class="text-base md:text-xl mt-4 leading-relaxed">7200 W University Dr,  <br>
+                        <p class="text-base md:text-xl mt-4 leading-relaxed">7200 W University Dr, <br>
                             Suite 216, <br> McKinney, TX 75071</p>
-                            <p class="text-base md:text-xl mt-4 leading-relaxed">Phone:
-                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE]">+1 469 277 7728</a></p>
+
+                        <p class="text-base md:text-xl mt-4 leading-relaxed">15650 N Black Canyon Hwy, <br>
+                            STE B135, <br> Phoenix, AZ - 85053.
+                        </p>
+
+                        <p class="text-base md:text-xl mt-4 leading-relaxed">Phone:
+                            <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE]">+1 602 500 6054</a>
+                        </p>
                         <p class="text-base md:text-xl mt-4 leading-relaxed font-semibold">Service Areas: We serve
                             clients worldwide with expertise in Oracle and SAP environments across all major industries.
                         </p>
@@ -227,14 +233,14 @@
 
                     <div class="relative">
                         <div class="lg:absolute lg:right-0 lg:-top-[380px] bg-[#E2E2E2] p-4 rounded-xl">
-                            
+
                             <!-- Success/Error Messages -->
                             <?php
                             if (isset($_GET['status']) && $_GET['status'] === 'success') {
                                 echo "<div style='color: green;'>Message sent successfully!</div>";
                             }
                             ?>
-                            
+
                             <div id="message-container"></div>
 
                             <form action="send-mail.php" method="POST" id="contactForm" class="lg:max-w-xl space-y-4">
@@ -256,7 +262,7 @@
                                         <input type="text" name="company"
                                             class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
                                     </div>
-                                    
+
                                 </div>
                                 <div class="space-y-1">
                                     <label class="font-medium">Message <span class="text-red-500">*</span></label>
@@ -310,11 +316,11 @@
         const urlParams = new URLSearchParams(window.location.search);
         const status = urlParams.get('status');
         const messageContainer = document.getElementById('message-container');
-        
+
         if (status) {
             let message = '';
             let bgColor = '';
-            
+
             if (status === 'error') {
                 message = 'Please fill all required fields!';
                 bgColor = 'bg-red-100 border border-red-400 text-red-700';
@@ -325,21 +331,21 @@
                 message = 'Failed to send message. Please try again!';
                 bgColor = 'bg-red-100 border border-red-400 text-red-700';
             }
-            
+
             if (message) {
                 messageContainer.innerHTML = `
                     <div class="${bgColor} px-4 py-3 rounded-lg mb-4 text-center font-medium">
                         ${message}
                     </div>
                 `;
-                
+
                 setTimeout(() => {
                     messageContainer.innerHTML = '';
                     window.history.replaceState({}, document.title, window.location.pathname);
                 }, 5000);
             }
         }
-        
+
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             const submitBtn = this.querySelector('button[type="submit"]');
             submitBtn.disabled = true;
