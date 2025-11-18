@@ -40,7 +40,7 @@
                         <a href="" class="hover:text-[#13FEFE] transition-colors">Risk Assessments</a>
                     </li>
                     <li>
-                        <a href="" class="hover:text-[#13FEFE] transition-colors">SoD Compliances</a>
+                        <a href="" class="hover:text-[#13FEFE] transition-colors">SOD Compliances</a>
                     </li>
                     <li>
                         <a href="" class="hover:text-[#13FEFE] transition-colors">Role Designs</a>
@@ -49,7 +49,7 @@
                         <a href="" class="hover:text-[#13FEFE] transition-colors">Oracle ERP Cloud License
                             Managements</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="" class="hover:text-[#13FEFE] transition-colors">Risk/Audit Certifications</a>
                     </li>
                 </ul>
@@ -60,14 +60,20 @@
                 <ul class="space-y-2 text-sm sm:text-base">
                     <li>
                         Phone:
-                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 469 277 7728</a>
+                        <a href="tel:+1-602-500-6054" class="hover:text-[#13FEFE] transition-colors">+1 602 500 6054</a>
                     </li>
                     <li>
                         Email:
                         <a href="mailto:contact@erpsecurityexperts.com"
                             class="hover:text-[#13FEFE] transition-colors">contact@erpsecurityexperts.com</a>
                     </li>
-                    <li>Address: 7200 W University Dr, Suite 216, McKinney, TX 75071</li>
+                </ul>
+                <h3 class="text-lg font-bold mt-6 mb-2">Address:</h3>
+                <ul class="space-y-2 text-sm sm:text-base">
+                    <li>7200 W University Dr, Suite 216, McKinney, TX 75071</li>
+                    <li>15650 N Black Canyon Hwy, STE B135,
+                        Phoenix, AZ - 85053.
+                    </li>
                 </ul>
             </div>
         </div>

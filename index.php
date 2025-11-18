@@ -123,6 +123,7 @@
                     0 0 80px rgba(19, 254, 254, 0.3),
                     inset 0 2px 20px rgba(255, 255, 255, 0.3);
             }
+
             50% {
                 transform: translateY(-10px) scale(1.05);
                 box-shadow: 0 0 60px rgba(19, 254, 254, 0.8),
@@ -130,6 +131,7 @@
                     inset 0 2px 30px rgba(255, 255, 255, 0.4);
             }
         }
+
         .play-icon {
             filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
         }
@@ -247,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -322,7 +324,7 @@
                             :class="activeTab === 'compliance' ? 'text-gray-900' : 'text-gray-600'"
                             class="py-2 text-sm lg:text-base font-semibold transition-all duration-300 relative bg-white border-b-4 border-transparent"
                             :style="activeTab === 'compliance' ? 'border-image: linear-gradient(90deg, #13FEFE 0%, #021451 100%) 1;' : ''">
-                            <span class="block">SoD Compliances</span>
+                            <span class="block">SOD Compliances</span>
                         </button>
                         <button @click="activeTab = 'innovation'"
                             :class="activeTab === 'innovation' ? 'text-gray-900' : 'text-gray-600'"
@@ -484,7 +486,7 @@
                             <div>
                                 <img src="./assets/icons/it-teams.svg" alt="IT teams">
                             </div>
-                            
+
                         </div>
 
                         <p class="font-bold text-xl mt-4">IT Teams</p>
@@ -498,7 +500,7 @@
                             <div>
                                 <img src="./assets/icons/information-security.svg" alt="information Security">
                             </div>
-                            
+
                         </div>
 
                         <p class="font-bold text-xl mt-4">Information Security Teams</p>
@@ -512,7 +514,7 @@
                             <div>
                                 <img src="./assets/icons/compliance-risk.svg" alt="Compliance & Risk">
                             </div>
-                            
+
                         </div>
 
                         <p class="font-bold text-xl mt-4">Compliance & Risk Teams</p>
@@ -526,7 +528,7 @@
                             <div>
                                 <img src="./assets/icons/finance-&-audit.svg" alt="Finance & Audit">
                             </div>
-                            
+
                         </div>
 
                         <p class="font-bold text-xl mt-4">Finance & Audit Teams</p>
@@ -673,7 +675,7 @@
             border: 2px solid #000;
         }
     </style>
-    
+
     <section class="p-4 mb-10">
         <div class="max-w-7xl mx-auto mt-5 sm:mt-10 border-2 border-slate-300 rounded-xl">
             <div class="grid lg:grid-cols-2">
@@ -684,7 +686,7 @@
                         </h2>
                         <p>Tell us what can we help you with.</p>
                     </div>
-                    
+
                     <?php
                     if (isset($_GET['status']) && $_GET['status'] === 'success') {
                         echo "<div style='color: green;'>Message sent successfully!</div>";
@@ -701,7 +703,7 @@
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
                             <input type="text" placeholder="Company Name" name="company"
                                 class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full col-span-2" />
-                            
+
                         </div>
                         <textarea name="message" placeholder="Message" rows="6" name="message"
                             class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0"></textarea>

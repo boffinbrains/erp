@@ -293,7 +293,7 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-2">SoD Compliances</h3>
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">SOD Compliances</h3>
                     <p class="text-sm italic mb-2">Prevent conflicts, enforce compliance, and protect operations.</p>
                     <div class="text-left"
                         x-data="expandableText(`Conflicts in user roles can result in financial fraud, compliance failures, and audit issues. Our SoD services enforce rigorous controls by detecting and remediating role conflicts across your ERP Cloud. We design preventive and detective SoD policies, automate conflict monitoring, and provide

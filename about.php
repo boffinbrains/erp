@@ -207,7 +207,6 @@
                         hesitation. Our team combines decades of experience in ERP, cybersecurity, and regulations to
                         deliver solutions that secure, enable, and elevate every client we serve.</p>
                 </div>
-
                 <div class="flex justify-end">
                     <div class="bg-[#D6D4FF] lg:w-96 lg:h-96 rounded-xl overflow-hidden">
                         <img src="https://boffinbrains.in/erp/assets/images/erp-security.webp" alt="ERP Security Expert"
@@ -232,99 +231,94 @@
                 </p>
             </div>
 
-            <div class="mt-4 sm:mt-6">
-                <div class="teamSwiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide max-w-[1000px] !w-full rounded-xl overflow-hidden bg-[#F0F0F0]">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                <div class="pt-10 flex justify-center items-end">
-                                    <img src="https://boffinbrains.in/erp/assets/images/taraj-khan.webp"
-                                        alt="Taraj Khan" class="max-h-[450px] w-auto object-contain" />
-                                </div>
-                                <div class="p-4 flex flex-col justify-center space-y-2">
-                                    <h3 class="text-xl md:text-2xl font-bold">Taraj Khan</h3>
-                                    <p class="text-base md:text-xl font-semibold">
-                                        Co-Founder and Director – Oracle Security & Risk Management Expert
-                                    </p>
-                                    <ul class="list-disc text-sm sm:text-base">
-                                      <p>Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership, and project management across both US and global markets.</p>
-                                    </ul>
-                                    <p class="text-sm sm:text-base font-semibold">
-                                        Core expertise:
-                                    </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>
-                                            Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.
-                                        </li>
-                                        <li>
-                                            Specialize in Oracle Cloud Governance, Risk & Compliance.
-                                        </li>
-                                        <li>Assess company/client SOX, SOD, ITAC, and ITGC frameworks and automate them into RMC controls.</li>
-                                        <li>Oracle License Management & Optimization to reduce Cost.</li>
-                                        <li>
-                                            ERP Managed Services, Advisory, Consulting & Staffing
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+            <div class="mt-4 sm:mt-6 container grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="w-full bg-[#F0F0F0] rounded-xl overflow-hidden mx-auto flex">
+                    <div class="grid grid-cols-1 gap-4 flex-1">
+
+                        <div class="pt-10 flex justify-center items-center">
+                            <img src="https://boffinbrains.in/erp/assets/images/taraj-khan.webp"
+                                alt="Taraj Khan"
+                                class="max-h-[450px] w-auto object-contain" />
                         </div>
 
-                        <div class="swiper-slide max-w-[1000px] !w-full rounded-xl overflow-hidden bg-[#F0F0F0]">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                                <div class="pt-10 flex justify-center">
-                                    <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui-image.webp"
-                                        alt="Asim Siddiqui" class="max-h-[450px] w-auto object-contain" />
-                                </div>
-                                <div class="p-4 flex flex-col justify-center space-y-2">
-                                    <h3 class="text-xl md:text-2xl font-bold">Asim Siddiqui</h3>
-                                    <p class="text-base md:text-xl font-semibold">
-                                        Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
-                                    </p>
-                                    <ul class="list-disc text-sm sm:text-base">
-                                    <p>Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI) with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO in Oracle consulting and managed services.</p>
-                                    </ul>
-                                    <p class="text-sm sm:text-base font-semibold">
-                                        Core expertise:
-                                    </p>
-                                    <ul class="list-disc ml-6 text-sm sm:text-base">
-                                        <li>Managed services and staffing for Oracle programs</li>
-                                        <li>
-                                            Oracle Cloud Security consulting across applications and
-                                            infrastructure
+                        <div class="p-4 flex flex-col justify-center space-y-2">
+                            <h3 class="text-xl md:text-2xl font-bold">Taraj Khan</h3>
 
-                                        </li>
-                                        <li>Oracle Cloud HCM consulting at scale</li>
-                                        <li>
-                                            Operating models that keep controls strong post-go-live
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <p class="text-base md:text-xl font-semibold">
+                                Co-Founder and Director – Oracle Security & Risk Management Expert
+                            </p>
+
+                            <ul class="list-disc text-sm sm:text-base">
+                                <p>
+                                    Over 25 years of Oracle ERP experience, managing end-to-end implementations, support, leadership,
+                                    and project management across both US and global markets.
+                                </p>
+                            </ul>
+
+                            <p class="text-sm sm:text-base font-semibold">Core expertise:</p>
+
+                            <ul class="list-disc ml-6 text-sm sm:text-base">
+                                <li>
+                                    Oracle Cloud Security and Risk Management / RMC Implementations & Assessments with Remediation Roadmaps.
+                                </li>
+                                <li>
+                                    Specialize in Oracle Cloud Governance, Risk & Compliance.
+                                </li>
+                                <li>
+                                    Assess company/client SOX, SOD, ITAC, and ITGC frameworks and automate them into RMC controls.
+                                </li>
+                                <li>Oracle License Management & Optimization to reduce Cost.</li>
+                                <li>
+                                    ERP Managed Services, Advisory, Consulting & Staffing
+                                </li>
+                            </ul>
                         </div>
+
                     </div>
-                    <div class="swiper-pagination static"></div>
                 </div>
+
+
+                <div class="w-full bg-[#F0F0F0] rounded-xl overflow-hidden mx-auto flex">
+                    <div class="grid grid-cols-1 gap-4 flex-1">
+
+                        <div class="pt-10 flex justify-center items-center">
+                            <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui-image.webp"
+                                alt="Asim Siddiqui"
+                                class="max-h-[450px] w-auto object-contain" />
+                        </div>
+
+                        <div class="p-4 flex flex-col justify-start h-full space-y-2">
+                            <h3 class="text-xl md:text-2xl font-bold">Asim Siddiqui</h3>
+
+                            <p class="text-base md:text-xl font-semibold">
+                                Co Founder and Director - Oracle Cloud & Cybersecurity Specialist
+                            </p>
+
+                            <ul class="list-disc text-sm sm:text-base">
+                                <p>
+                                    Cybersecurity specialist and certified Oracle Cloud expert (HCM, SCM, ERP, FDI, OCI)
+                                    with 15+ years of Big-5 consulting experience and 5+ years as founder/CEO
+                                    in Oracle consulting and managed services.
+                                </p>
+                            </ul>
+
+                            <p class="text-sm sm:text-base font-semibold">Core expertise:</p>
+
+                            <ul class="list-disc ml-6 text-sm sm:text-base">
+                                <li>Managed services and staffing for Oracle programs</li>
+                                <li>Oracle Cloud Security consulting across applications and infrastructure</li>
+                                <li>Oracle Cloud HCM consulting at scale</li>
+                                <li>Operating models that keep controls strong post-go-live</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
             </div>
+
         </div>
-        <script defer>
-        const teamSwiper = new Swiper(".mySwiper", {
-            loop: false,
-            spaceBetween: 10,
-            slidesPerView: "auto",
-            centeredSlides: false,
-            autoplay: {
-                delay: 5000,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
     </section>
 
     <section>
@@ -350,7 +344,6 @@
                             Vision
                         </div>
                     </div>
-
                     <p class="text-base md:text-lg mt-4">To set the worldwide benchmark for ERP Security consulting
                         through trusted partnerships, thought leadership, and measurable impact.</p>
                 </div>
