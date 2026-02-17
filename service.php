@@ -77,7 +77,7 @@
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
                 <a href="./index.php" class="flex items-center gap-3">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
                         loading="lazy">
                 </a>
 
@@ -106,7 +106,7 @@
         <div x-show="scrolled" class="h-18"></div>
 
         <div class="absolute inset-0">
-            <img src="https://boffinbrains.in/erp/assets/images/background.webp" alt="Background" class="w-full h-full object-cover">
+            <img src="https://erpsecurityexperts.com/assets/images/background.webp" alt="Background" class="w-full h-full object-cover">
             <div class="absolute inset-0"
                 style="background: linear-gradient(180deg, rgba(3,15,71,0.7) 0%, rgba(19,254,254,0.5) 100%);"></div>
         </div>
@@ -116,7 +116,7 @@
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
                     <div class="flex items-center gap-3">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
+                        <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
                             height="78">
                     </div>
 
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                         <div class="flex justify-center items-center">
-                            <img src="https://boffinbrains.in/erp/assets/images/erp-service.webp" alt="ERP service"
+                            <img src="https://erpsecurityexperts.com/assets/images/erp-service.webp" alt="ERP service"
                                 class="w-auto h-96 object-contain">
                         </div>
                     </div>
@@ -178,7 +178,7 @@
 
             <div class="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
                 <div class="">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" width="133" height="78"
                         class="h-[60px] lg:h-[78px] w-auto" loading="lazy">
                 </div>
                 <button @click="mobileMenuOpen = false"
@@ -426,7 +426,7 @@
                 <div class="hidden lg:block">
                     <div class="flex justify-center items-center relative max-w-[800px] h-[450px] mx-auto">
                         <div class="w-96 h-96">
-                            <img src="https://boffinbrains.in/erp/assets/images/why-choose-us.webp" alt="Why Choose Us"
+                            <img src="https://erpsecurityexperts.com/assets/images/why-choose-us.webp" alt="Why Choose Us"
                                 class="w-full h-full object-contain">
                         </div>
 
@@ -435,7 +435,7 @@
                                 <p class="text-base font-semibold text-right">Unmatched Expertise</p>
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/unmatched-expertise.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/unmatched-expertise.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                             </div>
@@ -445,7 +445,7 @@
                             <div class="flex gap-4 items-center">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/innovative-thinkers-icon.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/innovative-thinkers-icon.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <p class="text-base font-semibold text-left">Forward-Thinking Approach</p>
@@ -458,7 +458,7 @@
                                     Fast</p>
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/combined-years.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/combined-years.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                             </div>
@@ -468,7 +468,7 @@
                             <div class="flex gap-4 items-center">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/pragmatic-solutions.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/pragmatic-solutions.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <p class="text-base font-semibold text-left">Decades of Proven Experience Across Big-4,
@@ -481,7 +481,7 @@
                                 <p class="text-base font-semibold text-right">Collaborative Journey</p>
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/collaborative-journey.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/collaborative-journey.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                             </div>
@@ -491,7 +491,7 @@
                             <div class="flex gap-4 items-center">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/results-driven.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/results-driven.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <p class="text-base font-semibold text-right">Results-Driven</p>
@@ -504,7 +504,7 @@
                                     Checkpoints</p>
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/clear-roles-weekly-checkpoints.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/clear-roles-weekly-checkpoints.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                             </div>
@@ -514,7 +514,7 @@
                             <div class="flex gap-4 items-center">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 shrink-0 rounded-full flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/audit-findings-drop.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/audit-findings-drop.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <p class="text-base font-semibold text-left">Audit-Ready Evidence With Fewer Findings
@@ -530,7 +530,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/unmatched-expertise.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/unmatched-expertise.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -542,7 +542,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/innovative-thinkers-icon.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/innovative-thinkers-icon.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -555,7 +555,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/combined-years.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/combined-years.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -569,7 +569,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/pragmatic-solutions.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/pragmatic-solutions.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -583,7 +583,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/collaborative-journey.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/collaborative-journey.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -596,7 +596,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/results-driven.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/results-driven.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -609,7 +609,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/clear-roles-weekly-checkpoints.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/clear-roles-weekly-checkpoints.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
@@ -623,7 +623,7 @@
                             <div class="flex items-center gap-4">
                                 <div
                                     class="bg-[#D9D9D9] p-3 w-14 h-14 rounded-full shrink-0 flex justify-center items-center">
-                                    <img src="https://boffinbrains.in/erp/assets/icons/audit-findings-drop.svg" alt="" loading="lazy"
+                                    <img src="https://erpsecurityexperts.com/assets/icons/audit-findings-drop.svg" alt="" loading="lazy"
                                         class="w-full h-auto object-contain">
                                 </div>
                                 <div>
