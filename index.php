@@ -135,6 +135,11 @@
         .play-icon {
             filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
         }
+
+        #captcha-image-home:hover {
+            transform: scale(1.02);
+            transition: transform 0.2s;
+        }
     </style>
 </head>
 
@@ -155,7 +160,7 @@
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
                 <a href="./index.php" class="flex items-center gap-3">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto"
                         width="133" height="78" loading="lazy" />
                 </a>
 
@@ -182,7 +187,7 @@
         </div>
         <div x-show="scrolled" class="h-18"></div>
         <div class="absolute inset-0">
-            <img src="https://boffinbrains.in/erp/assets/images/background.webp" alt="Background"
+            <img src="https://erpsecurityexperts.com/assets/images/background.webp" alt="Background"
                 class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-[#030F47]/70"></div>
         </div>
@@ -191,7 +196,7 @@
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
                     <a href="./index.php" class="flex items-center gap-3">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt=""
+                        <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt=""
                             class="h-[60px] lg:h-[78px] w-auto" width="133" height="78" />
                     </a>
                     <div class="hidden lg:flex items-center space-x-6">
@@ -216,7 +221,7 @@
                         <div class="flex flex-col justify-center order-2 xl:order-1">
                             <div class="relative rounded-2xl overflow-hidden video-container video-glow"
                                 id="videoContainer">
-                                <video preload="none" poster="https://boffinbrains.in/erp/assets/videos/video-thumbnail.jpg"
+                                <video preload="none" poster="https://erpsecurityexperts.com/assets/videos/video-thumbnail.jpg"
                                     class="w-full h-auto lazy-video" id="heroVideo">
                                     Your browser does not support the video tag.
                                 </video>
@@ -267,7 +272,7 @@
         ">
             <div class="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
                 <a href="./index.php">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" width="133" height="78"
                         class="h-[60px] lg:h-[78px] w-auto" loading="lazy" />
                 </a>
                 <button @click="mobileMenuOpen = false"
@@ -353,7 +358,7 @@
                                 x-transition:enter-end="opacity-100 transform translate-y-0">
                                 <div class="grid md:grid-cols-4 gap-4 items-center">
                                     <div class="rounded-md overflow-hidden md:col-span-1">
-                                        <img src="https://boffinbrains.in/erp/assets/images/security.webp"
+                                        <img src="https://erpsecurityexperts.com/assets/images/security.webp"
                                             alt="Security Assessment" class="w-full h-full object-cover rounded-md" />
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
@@ -366,7 +371,7 @@
 
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
-                                            <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
+                                            <img src="https://erpsecurityexperts.com/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -377,7 +382,7 @@
                                 x-transition:enter-end="opacity-100 transform translate-y-0">
                                 <div class="grid md:grid-cols-4 gap-4 items-center">
                                     <div class="rounded-md overflow-hidden md:col-span-1">
-                                        <img src="https://boffinbrains.in/erp/assets/images/risk-assessment.webp"
+                                        <img src="https://erpsecurityexperts.com/assets/images/risk-assessment.webp"
                                             alt="Security Assessment" class="w-full h-full object-cover rounded-md" />
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
@@ -389,7 +394,7 @@
                                         </p>
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
-                                            <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
+                                            <img src="https://erpsecurityexperts.com/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -401,7 +406,7 @@
                                 x-transition:enter-end="opacity-100 transform translate-y-0">
                                 <div class="grid md:grid-cols-4 gap-4 items-center">
                                     <div class="rounded-md overflow-hidden md:col-span-1">
-                                        <img src="https://boffinbrains.in/erp/assets/images/segregation-of-duties.webp"
+                                        <img src="https://erpsecurityexperts.com/assets/images/segregation-of-duties.webp"
                                             alt="Security Assessment" class="w-full h-full object-cover rounded-md" />
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
@@ -413,7 +418,7 @@
 
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
-                                            <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
+                                            <img src="https://erpsecurityexperts.com/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -425,7 +430,7 @@
                                 x-transition:enter-end="opacity-100 transform translate-y-0">
                                 <div class="grid md:grid-cols-4 gap-4 items-center">
                                     <div class="rounded-md overflow-hidden md:col-span-1">
-                                        <img src="https://boffinbrains.in/erp/assets/images/role-design.webp"
+                                        <img src="https://erpsecurityexperts.com/assets/images/role-design.webp"
                                             alt="Security Assessment" class="w-full h-full object-cover rounded-md" />
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
@@ -437,7 +442,7 @@
 
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
-                                            <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
+                                            <img src="https://erpsecurityexperts.com/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -449,7 +454,7 @@
                                 x-transition:enter-end="opacity-100 transform translate-y-0">
                                 <div class="grid md:grid-cols-4 gap-4 items-center">
                                     <div class="rounded-md overflow-hidden md:col-span-1">
-                                        <img src="https://boffinbrains.in/erp/assets/images/oracle-erp-cloud-license-management.webp"
+                                        <img src="https://erpsecurityexperts.com/assets/images/oracle-erp-cloud-license-management.webp"
                                             alt="Security Assessment" class="w-full h-full object-cover rounded-md" />
                                     </div>
                                     <div class="md:col-span-3 space-y-6">
@@ -459,7 +464,7 @@
 
                                         <div class="flex justify-between items-center gap-4">
                                             <a href="./service.php" class="text-gradient text-xl font-semibold">Learn More</a>
-                                            <img src="https://boffinbrains.in/erp/assets/icons/arrow.svg" alt="" />
+                                            <img src="https://erpsecurityexperts.com/assets/icons/arrow.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -541,67 +546,6 @@
         </div>
     </section>
 
-    <!-- <section>
-        <div class="container mx-auto p-4 mt-5 sm:mt-10">
-            <div class="max-w-3xl mx-auto text-left sm:text-center uppercase">
-                <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">
-                    Built on Passion, Driven by Integrity
-                </h2>
-            </div>
-
-            <div class="mt-5 sm:mt-10 space-y-6">
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5">
-                    <div class="rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] flex">
-                        <div class="bg-white rounded-xl p-4 space-y-2 flex-1 flex flex-col">
-                            <img src="https://boffinbrains.in/erp/assets/images/initial-consultation.webp"
-                                alt="Initial Consultation icon" loading="lazy" width="140" height="152"
-                                class="max-w-14 h-auto object-contain" />
-                            <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2]">
-                                Initial Consultation
-                            </h3>
-                            <p class="text-sm sm:text-base mt-auto">
-                                We meet key stakeholders to confirm objectives and constraints. The output is a tailored
-                                roadmap with milestones.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] flex">
-                        <div class="bg-white rounded-xl p-4 space-y-2 flex-1 flex flex-col">
-                            <img src="https://boffinbrains.in/erp/assets/images/review-of-risk-&-controls.webp"
-                                alt="Review of Risk & Controls icon" loading="lazy" width="172" height="172"
-                                class="max-w-14 h-auto object-contain" />
-                            <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2]">
-                                Review of Risk & Controls
-                            </h3>
-                            <p class="text-sm sm:text-base mt-auto">
-                                We assess roles, access, and process controls across SAP and Oracle. Evidence is
-                                gathered, gaps are prioritized, and a remediation path is defined with owners and due
-                                dates.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="rounded-xl p-[2px] bg-gradient-to-b from-[#6E9FFF] to-[#1EF3FE] flex">
-                        <div class="bg-white rounded-xl p-4 space-y-2 flex-1 flex flex-col">
-                            <img src="https://boffinbrains.in/erp/assets/images/reporting-results.webp"
-                                alt="Reporting Results icon" loading="lazy" width="140" height="152"
-                                class="max-w-14 h-auto object-contain" />
-                            <h3 class="text-xl md:text-2xl font-semibold text-[#3945A2]">
-                                Reporting Results
-                            </h3>
-                            <p class="text-sm sm:text-base mt-auto">
-                                We deliver dashboards and concise reports that track KPIs, residual risk, and audit
-                                readiness. Actions are logged, verified, and transitioned to your teams for ongoing
-                                operation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <section>
         <div class="container mx-auto p-4 mt-5 sm:mt-10">
             <div class="max-w-3xl mx-auto text-center">
@@ -614,47 +558,47 @@
                 <div class="swiper logosSwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/indiana-university-health.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/indiana-university-health.webp"
                                 alt="Indiana University Health" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/kaiser-permanente-logo.webp"
+                            <img src="https://erpsecurityexperts.com//assets/testimonials/kaiser-permanente-logo.webp"
                                 alt="Kaiser Permanente" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/exelon.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/exelon.webp"
                                 alt="Exelon" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/twilio.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/twilio.webp"
                                 alt="Twilio" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/dept-of-energy-logo.webp"
+                            <img src="https://erpsecurityexperts.com//assets/testimonials/dept-of-energy-logo.webp"
                                 alt="Dept of Energy" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp//assets/testimonials/blue-cross-blue-shield-vector-logo.webp"
+                            <img src="https://erpsecurityexperts.com//assets/testimonials/blue-cross-blue-shield-vector-logo.webp"
                                 alt="Blue Cross Blue Shield" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/acco-logo.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/acco-logo.webp"
                                 alt="ACCO Engineered Systems" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/gkn-wheels-logo.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/gkn-wheels-logo.webp"
                                 alt="GKN Wheels" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <div class="swiper-slide flex items-center justify-center p-4">
-                            <img src="https://boffinbrains.in/erp/assets/testimonials/jpmc-logo.webp"
+                            <img src="https://erpsecurityexperts.com/assets/testimonials/jpmc-logo.webp"
                                 alt="J.P. Morgan Chase" loading="lazy"
                                 class="max-w-[140px] sm:max-w-[160px] max-h-20 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
                         </div>
@@ -687,36 +631,52 @@
                         <p>Tell us what can we help you with.</p>
                     </div>
 
-                    <?php
-                    if (isset($_GET['status']) && $_GET['status'] === 'success') {
-                        echo "<div style='color: green;'>Message sent successfully!</div>";
-                    }
-                    ?>
+                    <div id="message-container-home"></div>
 
-                    <form action="send-mail.php" method="POST" id="contactForm" class="mt-2 space-y-4">
+                    <form action="send-mail.php" method="POST" id="contactFormHome" class="mt-2 space-y-4">
                         <input type="hidden" name="redirect_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
                         <input type="hidden" name="source" value="Home page">
+
                         <div class="grid sm:grid-cols-2 gap-4">
-                            <input type="text" placeholder="Name" name="name"
-                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="email" placeholder="Email" name="email"
-                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full" />
-                            <input type="text" placeholder="Company Name" name="company"
-                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0 w-full col-span-2" />
-
+                            <input type="text" placeholder="Name *" name="name" id="name-home" required minlength="2" maxlength="100"
+                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3945A2] w-full" />
+                            <input type="email" placeholder="Email *" name="email" id="email-home" required
+                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3945A2] w-full" />
+                            <input type="text" placeholder="Company Name" name="company" id="company-home" maxlength="100"
+                                class="border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3945A2] w-full col-span-2" />
                         </div>
-                        <textarea name="message" placeholder="Message" rows="6" name="message"
-                            class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-0"></textarea>
 
-                        <button class="bg-[#FF5500] text-white px-10 py-1 text-xl rounded-full" type="submit">
+                        <textarea name="message" placeholder="Message *" rows="6" id="message-home" required minlength="10" maxlength="5000"
+                            class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3945A2]"></textarea>
+
+                        <div class="text-sm text-gray-600">
+                            <span id="char-count-home">0/5000 characters</span>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="font-medium text-sm">Security Verification <span class="text-red-500">*</span></label>
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 p-3 border-2 border-[#030F47] rounded-md bg-white/50">
+                                <img src="generate-captcha.php" alt="CAPTCHA" id="captcha-image-home" class="border border-gray-300 rounded cursor-pointer hover:opacity-80 transition-opacity" width="200" height="60">
+                                <button type="button" onclick="refreshCaptchaHome()" class="px-4 py-2 bg-[#030F47] text-white rounded hover:bg-[#3945A2] transition-colors text-sm">
+                                    🔄 Refresh
+                                </button>
+                            </div>
+                            <input type="number" name="captcha_answer" id="captcha-answer-home" required
+                                placeholder="Enter the answer"
+                                class="w-full border-2 border-[#030F47] rounded-md bg-transparent px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3945A2]">
+                        </div>
+
+                        <input type="text" name="website" id="website-home" style="display:none;" tabindex="-1" autocomplete="off">
+
+                        <button class="bg-[#FF5500] text-white px-10 py-2 text-xl rounded-full hover:bg-[#ff6a1a] transition-colors disabled:opacity-50 disabled:cursor-not-allowed" type="submit" id="submitBtnHome">
                             SUBMIT
                         </button>
                     </form>
                 </div>
 
                 <div class="hidden lg:flex flex-col justify-end">
-                    <img src="https://boffinbrains.in/erp/assets/images/get-in-touch.webp" alt="Get in touch"
-                        loading="lazy" class="w-auto max-h-[500px] object-contain" />
+                    <img src="https://erpsecurityexperts.com/assets/images/get-in-touch.webp" alt="Get in touch"
+                        loading="lazy" class="w-auto max-h-[700px] object-contain" />
                 </div>
             </div>
         </div>
@@ -724,6 +684,7 @@
 
 
     <?php include 'footer.php'; ?>
+
     <script defer>
         document.addEventListener("DOMContentLoaded", function() {
             const video = document.getElementById('heroVideo');
@@ -738,7 +699,7 @@
 
             playBtn.addEventListener("click", function() {
                 if (!isVideoLoaded) {
-                    video.src = "https://boffinbrains.in/erp/assets/videos/erp.mp4";
+                    video.src = "https://erpsecurityexperts.com/assets/videos/erp.mp4";
                     video.load();
 
                     video.addEventListener("loadeddata", () => {
@@ -801,54 +762,196 @@
     </script>
 
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const status = urlParams.get('status');
-        const messageContainer = document.getElementById('message-container');
-
-        if (status) {
-            let message = '';
-            let bgColor = '';
-
-            if (status === 'error') {
-                message = 'Please fill all required fields!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
-            } else if (status === 'invalid') {
-                message = 'Please enter a valid email address!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
-            } else if (status === 'failed') {
-                message = 'Failed to send message. Please try again!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
-            }
-
-            if (message) {
-                messageContainer.innerHTML = `
-                    <div class="${bgColor} px-4 py-3 rounded-lg mb-4 text-center font-medium">
-                        ${message}
-                    </div>
-                `;
-
-                setTimeout(() => {
-                    messageContainer.innerHTML = '';
-                    window.history.replaceState({}, document.title, window.location.pathname);
-                }, 5000);
-            }
+        function refreshCaptchaHome() {
+            const captchaImage = document.getElementById('captcha-image-home');
+            captchaImage.src = 'generate-captcha.php?' + Date.now();
+            document.getElementById('captcha-answer-home').value = '';
         }
 
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            const submitBtn = this.querySelector('button[type="submit"]');
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Sending... ⏳';
-        });
+        const urlParams = new URLSearchParams(window.location.search);
+        const status = urlParams.get('status');
+        const messageContainer = document.getElementById('message-container-home');
+
+        console.log('Status from URL:', status); // Debug log
+
+        const statusMessages = {
+            'success': {
+                message: 'Thank you! Your message has been sent successfully. We\'ll get back to you soon.',
+                type: 'success'
+            },
+            'error': {
+                message: 'Please fill all required fields!',
+                type: 'error'
+            },
+            'invalid': {
+                message: 'Please enter a valid email address!',
+                type: 'error'
+            },
+            'invalid_name': {
+                message: 'Name must be between 2 and 100 characters!',
+                type: 'error'
+            },
+            'invalid_message': {
+                message: 'Message must be between 10 and 5000 characters!',
+                type: 'error'
+            },
+            'failed': {
+                message: 'Failed to send message. Please try again!',
+                type: 'error'
+            },
+            'captcha_empty': {
+                message: 'Please solve the math problem!',
+                type: 'error'
+            },
+            'captcha_failed': {
+                message: 'Incorrect answer! Please try again.',
+                type: 'error'
+            },
+            'captcha_expired': {
+                message: 'CAPTCHA expired! Please refresh and try again.',
+                type: 'error'
+            },
+            'spam_detected': {
+                message: 'Your message was flagged as spam. Please contact us directly.',
+                type: 'error'
+            },
+            'rate_limit': {
+                message: 'Too many submissions. Please try again later.',
+                type: 'error'
+            },
+            'invalid_request': {
+                message: 'Invalid request method.',
+                type: 'error'
+            }
+        };
+
+        if (status && statusMessages[status]) {
+            console.log('Showing message for status:', status); // Debug log
+
+            const {
+                message,
+                type
+            } = statusMessages[status];
+            const bgColor = type === 'success' ?
+                'bg-green-100 border border-green-400 text-green-700' :
+                'bg-red-100 border border-red-400 text-red-700';
+
+            messageContainer.innerHTML = `
+                <div class="${bgColor} px-4 py-3 rounded-lg my-4 text-center font-medium animate-pulse">
+                    ${message}
+                </div>
+            `;
+
+            if (type === 'error' && (status === 'captcha_failed' || status === 'captcha_empty' || status === 'captcha_expired')) {
+                refreshCaptchaHome();
+            }
+
+            setTimeout(() => {
+                messageContainer.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+
+                setTimeout(() => {
+                    const msgDiv = messageContainer.querySelector('div');
+                    if (msgDiv) {
+                        msgDiv.classList.remove('animate-pulse');
+                    }
+                }, 2000);
+            }, 100);
+
+            const dismissTime = type === 'success' ? 10000 : 7000;
+            setTimeout(() => {
+                messageContainer.innerHTML = '';
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }, dismissTime);
+        } else if (status) {
+            console.log('Unknown status:', status); // Debug log
+        }
+
+        const messageFieldHome = document.getElementById('message-home');
+        const charCountHome = document.getElementById('char-count-home');
+
+        if (messageFieldHome && charCountHome) {
+            messageFieldHome.addEventListener('input', function() {
+                const length = this.value.length;
+                charCountHome.textContent = `${length}/5000 characters`;
+                charCountHome.className = length > 5000 ? 'text-red-500 text-sm' : 'text-gray-600 text-sm';
+            });
+        }
+
+        const emailFieldHome = document.getElementById('email-home');
+
+        if (emailFieldHome) {
+            emailFieldHome.addEventListener('blur', function() {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (this.value && !emailRegex.test(this.value)) {
+                    this.classList.add('border-red-500');
+                    this.classList.remove('border-[#030F47]');
+                } else {
+                    this.classList.remove('border-red-500');
+                    this.classList.add('border-[#030F47]');
+                }
+            });
+        }
+
+        const contactFormHome = document.getElementById('contactFormHome');
+
+        if (contactFormHome) {
+            contactFormHome.addEventListener('submit', function(e) {
+                const submitBtn = document.getElementById('submitBtnHome');
+                const captchaAnswer = document.getElementById('captcha-answer-home').value;
+
+                if (document.getElementById('website-home').value !== '') {
+                    e.preventDefault();
+                    return false;
+                }
+
+                if (!captchaAnswer) {
+                    e.preventDefault();
+                    alert('Please solve the math problem!');
+                    return false;
+                }
+
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = 'SENDING... ⏳';
+            });
+        }
+
+        const nameFieldHome = document.getElementById('name-home');
+
+        if (nameFieldHome) {
+            nameFieldHome.addEventListener('input', function() {
+                if (this.value.length > 0 && this.value.length < 2) {
+                    this.classList.add('border-red-500');
+                    this.classList.remove('border-[#030F47]');
+                } else {
+                    this.classList.remove('border-red-500');
+                    this.classList.add('border-[#030F47]');
+                }
+            });
+        }
+
+        const captchaAnswerHome = document.getElementById('captcha-answer-home');
+
+        if (captchaAnswerHome) {
+            captchaAnswerHome.addEventListener('input', function() {
+                if (this.value) {
+                    this.classList.remove('border-red-500');
+                    this.classList.add('border-[#030F47]');
+                }
+            });
+        }
     </script>
 
     <script defer>
         document.addEventListener('DOMContentLoaded', function() {
             new Swiper('.logosSwiper', {
-                loop: true, // Enable continuous loop
-                slidesPerView: 2, // Show 2 slides on smaller screens
+                loop: true,
+                slidesPerView: 2,
                 spaceBetween: 20,
                 autoplay: {
-                    delay: 2500, // Faster autoplay for logos
+                    delay: 2500,
                     disableOnInteraction: false,
                 },
                 pagination: {
@@ -857,11 +960,11 @@
                 },
                 breakpoints: {
                     640: {
-                        slidesPerView: 3, // Show 3 slides on sm screens
+                        slidesPerView: 3,
                         spaceBetween: 30,
                     },
                     1024: {
-                        slidesPerView: 4, // Show 4 slides on lg screens
+                        slidesPerView: 4,
                         spaceBetween: 40,
                     },
                 },

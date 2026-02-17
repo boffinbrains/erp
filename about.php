@@ -77,7 +77,7 @@
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
                 <a href="./index.php" class="flex items-center gap-3">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto" width="133" height="78"
                         loading="lazy">
                 </a>
 
@@ -106,7 +106,7 @@
         <div x-show="scrolled" class="h-18"></div>
 
         <div class="absolute inset-0">
-            <img src="https://boffinbrains.in/erp/assets/images/background.webp" alt="Background" class="w-full h-full object-cover">
+            <img src="https://erpsecurityexperts.com/assets/images/background.webp" alt="Background" class="w-full h-full object-cover">
             <div class="absolute inset-0"
                 style="background: linear-gradient(180deg, rgba(3,15,71,0.7) 0%, rgba(19,254,254,0.5) 100%);"></div>
         </div>
@@ -116,7 +116,7 @@
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
                     <a href="./index.php" class="flex items-center gap-3">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
+                        <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" class="h-[60px] lg:h-[78px] w-auto" width="133"
                             height="78">
                     </a>
 
@@ -165,7 +165,7 @@
 
             <div class="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
                 <div class="">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" width="133" height="78"
                         class="h-[60px] lg:h-[78px] w-auto" loading="lazy">
                 </div>
                 <button @click="mobileMenuOpen = false"
@@ -209,7 +209,7 @@
                 </div>
                 <div class="flex justify-end">
                     <div class="bg-[#D6D4FF] lg:w-96 lg:h-96 rounded-xl overflow-hidden">
-                        <img src="https://boffinbrains.in/erp/assets/images/erp-security.webp" alt="ERP Security Expert"
+                        <img src="https://erpsecurityexperts.com/assets/images/erp-security.webp" alt="ERP Security Expert"
                             class="w-full h-full object-cover">
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                     <div class="grid grid-cols-1 gap-4 flex-1">
 
                         <div class="pt-10 flex justify-center items-center">
-                            <img src="https://boffinbrains.in/erp/assets/images/taraj-khan.webp"
+                            <img src="https://erpsecurityexperts.com/assets/images/taraj-khan.webp"
                                 alt="Taraj Khan"
                                 class="max-h-[450px] w-auto object-contain" />
                         </div>
@@ -282,7 +282,7 @@
                     <div class="grid grid-cols-1 gap-4 flex-1">
 
                         <div class="pt-10 flex justify-center items-center">
-                            <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui-image.webp"
+                            <img src="https://erpsecurityexperts.com/assets/images/asim-siddiqui-image.webp"
                                 alt="Asim Siddiqui"
                                 class="max-h-[450px] w-auto object-contain" />
                         </div>
@@ -356,7 +356,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-10 items-stretch">
                 <div class="flex justify-center order-2 lg:order-1">
                     <div class="w-full rounded-xl h-full">
-                        <img src="https://boffinbrains.in/erp/assets/images/who-we-are.webp" alt="Who we are" loading="lazy"
+                        <img src="https://erpsecurityexperts.com/assets/images/who-we-are.webp" alt="Who we are" loading="lazy"
                             class="w-full h-96 object-cover rounded-xl">
                     </div>
                 </div>

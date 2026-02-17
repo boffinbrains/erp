@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 pt-10">
             <div class="space-y-4">
                 <a href="./index.php" class="inline-block">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="Logo"
                         class="h-[60px] lg:h-[78px] w-auto" />
                 </a>
                 <p class="text-sm sm:text-base leading-relaxed opacity-90">

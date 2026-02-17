@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -56,6 +56,42 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+
+        .captcha-box {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background: #f9f9f9;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .captcha-image {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .captcha-image:hover {
+            transform: scale(1.02);
+        }
+
+        .refresh-captcha {
+            cursor: pointer;
+            padding: 8px 12px;
+            background: #030F47;
+            color: white;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .refresh-captcha:hover {
+            background: #13FEFE;
+            color: #030F47;
+        }
     </style>
 </head>
 
@@ -77,7 +113,7 @@
             class="fixed top-0 left-0 w-full z-50 bg-[#030F47] bg-opacity-95 backdrop-blur-sm border-b border-white/10">
             <div class="container mx-auto p-4 flex items-center justify-between">
                 <a href="./index.php" class="flex items-center gap-3">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="Logo" class="max-h-[60px] w-auto"
                         width="133" height="78" loading="lazy">
                 </a>
 
@@ -106,7 +142,7 @@
         <div x-show="scrolled" class="h-18"></div>
 
         <div class="absolute inset-0">
-            <img src="https://boffinbrains.in/erp/assets/images/background.webp" alt="Background"
+            <img src="https://erpsecurityexperts.com/assets/images/background.webp" alt="Background"
                 class="w-full h-full object-cover">
             <div class="absolute inset-0"
                 style="background: linear-gradient(180deg, rgba(3,15,71,0.7) 0%, rgba(19,254,254,0.5) 100%);"></div>
@@ -117,7 +153,7 @@
             <nav class="flex justify-between items-center py-4">
                 <div class="flex flex-1 justify-between items-center text-white font-bold">
                     <a href="./index.php" class="flex items-center gap-3">
-                        <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt=""
+                        <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt=""
                             class="h-[60px] lg:h-[78px] w-auto" width="133" height="78">
                     </a>
 
@@ -165,7 +201,7 @@
 
             <div class="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
                 <div class="">
-                    <img src="https://boffinbrains.in/erp/assets/images/logo.svg" alt="" width="133" height="78"
+                    <img src="https://erpsecurityexperts.com/assets/images/logo.svg" alt="" width="133" height="78"
                         class="h-[60px] lg:h-[78px] w-auto" loading="lazy">
                 </div>
                 <button @click="mobileMenuOpen = false"
@@ -214,7 +250,7 @@
             <div class="container mx-auto p-4 mt-5 py-10">
                 <div class="relative grid lg:grid-cols-2 gap-4 lg:gap-10">
                     <div>
-                        <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">Our Location</h2>
+                        <h2 class="font-bold text-xl sm:text-2xl md:text-4xl">Our Locations</h2>
 
                         <p class="text-base md:text-xl mt-4 leading-relaxed">7200 W University Dr, <br>
                             Suite 216, <br> McKinney, TX 75071</p>
@@ -235,41 +271,59 @@
                         <div class="lg:absolute lg:right-0 lg:-top-[380px] bg-[#E2E2E2] p-4 rounded-xl">
 
                             <!-- Success/Error Messages -->
-                            <?php
-                            if (isset($_GET['status']) && $_GET['status'] === 'success') {
-                                echo "<div style='color: green;'>Message sent successfully!</div>";
-                            }
-                            ?>
-
                             <div id="message-container"></div>
 
                             <form action="send-mail.php" method="POST" id="contactForm" class="lg:max-w-xl space-y-4">
                                 <input type="hidden" name="redirect_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
                                 <input type="hidden" name="source" value="Contact page">
+
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div class="space-y-1">
                                         <label class="font-medium">Full Name <span class="text-red-500">*</span></label>
-                                        <input type="text" name="name" required
-                                            class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
+                                        <input type="text" name="name" id="name" required minlength="2" maxlength="100"
+                                            class="w-full bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#030F47] text-xl px-4 py-2 border border-gray-300">
+                                        <span class="text-red-500 text-sm hidden" id="name-error"></span>
                                     </div>
                                     <div class="space-y-1">
                                         <label class="font-medium">Email <span class="text-red-500">*</span></label>
-                                        <input type="email" name="email" required
-                                            class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
+                                        <input type="email" name="email" id="email" required
+                                            class="w-full bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#030F47] text-xl px-4 py-2 border border-gray-300">
+                                        <span class="text-red-500 text-sm hidden" id="email-error"></span>
                                     </div>
                                     <div class="space-y-1 md:col-span-2">
                                         <label class="font-medium">Company Name</label>
-                                        <input type="text" name="company"
-                                            class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300">
+                                        <input type="text" name="company" id="company" maxlength="100"
+                                            class="w-full bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#030F47] text-xl px-4 py-2 border border-gray-300">
                                     </div>
-
                                 </div>
                                 <div class="space-y-1">
                                     <label class="font-medium">Message <span class="text-red-500">*</span></label>
-                                    <textarea name="message" rows="5" required
-                                        class="w-full bg-white rounded-md focus:outline-none text-xl px-4 py-2 border border-gray-300"></textarea>
+                                    <textarea name="message" id="message" rows="5" required minlength="10" maxlength="5000"
+                                        class="w-full bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#030F47] text-xl px-4 py-2 border border-gray-300"></textarea>
+                                    <span class="text-red-500 text-sm hidden" id="message-error"></span>
+                                    <span class="text-gray-500 text-sm" id="char-count">0/5000 characters</span>
                                 </div>
-                                <button type="submit" class="bg-[#312E2E] text-white w-full py-4 mt-4 rounded-md hover:bg-[#030F47] transition-colors">
+
+                                <!-- Custom CAPTCHA -->
+                                <div class="space-y-1">
+                                    <label class="font-medium">Security Verification <span class="text-red-500">*</span></label>
+                                    <div class="captcha-box">
+                                        <img src="generate-captcha.php" alt="CAPTCHA" id="captcha-image" class="captcha-image" width="200" height="60">
+                                        <button type="button" onclick="refreshCaptcha()" class="refresh-captcha" title="Refresh CAPTCHA">
+                                            🔄 Refresh
+                                        </button>
+                                    </div>
+                                    <input type="number" name="captcha_answer" id="captcha_answer" required
+                                        placeholder="Enter the answer"
+                                        class="w-full bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#030F47] text-xl px-4 py-2 border border-gray-300 mt-2">
+                                    <span class="text-red-500 text-sm hidden" id="captcha-error"></span>
+                                </div>
+
+                                <!-- Honeypot field (hidden from users, catches bots) -->
+                                <input type="text" name="website" id="website" style="display:none;" tabindex="-1" autocomplete="off">
+
+                                <button type="submit" id="submitBtn"
+                                    class="bg-[#312E2E] text-white w-full py-4 mt-4 rounded-md hover:bg-[#030F47] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
                                     Submit Inquiry
                                 </button>
                             </form>
@@ -280,12 +334,13 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="container mx-auto p-4 my-5 sm:my-10">
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="flex flex-col sm:flex-row gap-4 bg-[#ECEBEB] rounded-xl p-4 shadow-lg">
                     <div class="sm:h-[140px] lg:h-[200px] shrink-0">
-                        <img src="https://boffinbrains.in/erp/assets/images/taraj-khan-image.webp" alt="Taraj Khan"
+                        <img src="https://erpsecurityexperts.com/assets/images/taraj-khan-image.webp" alt="Taraj Khan"
                             class="w-full h-full object-contain">
                     </div>
                     <div>
@@ -297,7 +352,7 @@
 
                 <div class="flex flex-col sm:flex-row gap-4 bg-[#ECEBEB] rounded-xl p-4 shadow-lg">
                     <div class="sm:h-[140px] lg:h-[200px] shrink-0">
-                        <img src="https://boffinbrains.in/erp/assets/images/asim-siddiqui.webp" alt="Asim Siddiqui"
+                        <img src="https://erpsecurityexperts.com/assets/images/asim-siddiqui.webp" alt="Asim Siddiqui"
                             class="w-full h-full object-contain">
                     </div>
                     <div>
@@ -313,44 +368,202 @@
     <?php include 'footer.php'; ?>
 
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const status = urlParams.get('status');
-        const messageContainer = document.getElementById('message-container');
+        // Wrap everything in DOMContentLoaded to ensure page is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
 
-        if (status) {
-            let message = '';
-            let bgColor = '';
-
-            if (status === 'error') {
-                message = 'Please fill all required fields!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
-            } else if (status === 'invalid') {
-                message = 'Please enter a valid email address!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
-            } else if (status === 'failed') {
-                message = 'Failed to send message. Please try again!';
-                bgColor = 'bg-red-100 border border-red-400 text-red-700';
+            // Refresh CAPTCHA function
+            function refreshCaptcha() {
+                const captchaImage = document.getElementById('captcha-image');
+                captchaImage.src = 'generate-captcha.php?' + Date.now();
+                document.getElementById('captcha_answer').value = '';
             }
 
-            if (message) {
-                messageContainer.innerHTML = `
-                    <div class="${bgColor} px-4 py-3 rounded-lg mb-4 text-center font-medium">
-                        ${message}
-                    </div>
-                `;
+            // Make refreshCaptcha available globally
+            window.refreshCaptcha = refreshCaptcha;
 
+            // Status message handling
+            const urlParams = new URLSearchParams(window.location.search);
+            const status = urlParams.get('status');
+            const messageContainer = document.getElementById('message-container');
+
+            console.log('Contact Page - Status from URL:', status); // Debug log
+            console.log('Contact Page - Message container found:', messageContainer !== null); // Debug log
+
+            const statusMessages = {
+                'success': {
+                    message: 'Thank you! Your message has been sent successfully. We\'ll get back to you soon.',
+                    type: 'success'
+                },
+                'error': {
+                    message: 'Please fill all required fields!',
+                    type: 'error'
+                },
+                'invalid': {
+                    message: 'Please enter a valid email address!',
+                    type: 'error'
+                },
+                'invalid_name': {
+                    message: 'Name must be between 2 and 100 characters!',
+                    type: 'error'
+                },
+                'invalid_message': {
+                    message: 'Message must be between 10 and 5000 characters!',
+                    type: 'error'
+                },
+                'failed': {
+                    message: 'Failed to send message. Please try again!',
+                    type: 'error'
+                },
+                'captcha_empty': {
+                    message: 'Please solve the math problem!',
+                    type: 'error'
+                },
+                'captcha_failed': {
+                    message: 'Incorrect answer! Please try again.',
+                    type: 'error'
+                },
+                'captcha_expired': {
+                    message: 'CAPTCHA expired! Please refresh and try again.',
+                    type: 'error'
+                },
+                'spam_detected': {
+                    message: 'Your message was flagged as spam. Please contact us directly.',
+                    type: 'error'
+                },
+                'rate_limit': {
+                    message: 'Too many submissions. Please try again later.',
+                    type: 'error'
+                },
+                'invalid_request': {
+                    message: 'Invalid request method.',
+                    type: 'error'
+                }
+            };
+
+            if (status && statusMessages[status]) {
+                console.log('Contact Page - Showing message for status:', status); // Debug log
+
+                const {
+                    message,
+                    type
+                } = statusMessages[status];
+                const bgColor = type === 'success' ?
+                    'bg-green-100 border border-green-400 text-green-700' :
+                    'bg-red-100 border border-red-400 text-red-700';
+
+                messageContainer.innerHTML = `
+                <div class="${bgColor} px-4 py-3 rounded-lg mb-4 text-center font-medium animate-pulse" style="font-size: 16px;">
+                    ${message}
+                </div>
+            `;
+
+                console.log('Contact Page - Message HTML set'); // Debug log
+
+                // Refresh CAPTCHA on error
+                if (type === 'error' && (status === 'captcha_failed' || status === 'captcha_empty' || status === 'captcha_expired')) {
+                    refreshCaptcha();
+                }
+
+                // Scroll to form section with delay
+                setTimeout(() => {
+                    const formSection = document.querySelector('.bg-\\[rgba\\(217\\,217\\,217\\,0\\.41\\)\\]');
+                    if (formSection) {
+                        formSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        console.log('Contact Page - Scrolled to form'); // Debug log
+                    }
+
+                    // Remove pulse animation after 2 seconds
+                    setTimeout(() => {
+                        const msgDiv = messageContainer.querySelector('div');
+                        if (msgDiv) {
+                            msgDiv.classList.remove('animate-pulse');
+                        }
+                    }, 2000);
+                }, 300);
+
+                // Auto-dismiss after 10 seconds for success, 7 for errors
+                const dismissTime = type === 'success' ? 10000 : 7000;
                 setTimeout(() => {
                     messageContainer.innerHTML = '';
                     window.history.replaceState({}, document.title, window.location.pathname);
-                }, 5000);
+                    console.log('Contact Page - Message dismissed'); // Debug log
+                }, dismissTime);
+            } else if (status) {
+                console.log('Contact Page - Unknown status:', status); // Debug log
             }
-        }
 
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            const submitBtn = this.querySelector('button[type="submit"]');
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Sending... ⏳';
-        });
+            // Character counter
+            const messageField = document.getElementById('message');
+            const charCount = document.getElementById('char-count');
+
+            messageField.addEventListener('input', function() {
+                const length = this.value.length;
+                charCount.textContent = `${length}/5000 characters`;
+                charCount.className = length > 5000 ? 'text-red-500 text-sm' : 'text-gray-500 text-sm';
+            });
+
+            // Email validation
+            const emailField = document.getElementById('email');
+            const emailError = document.getElementById('email-error');
+
+            emailField.addEventListener('blur', function() {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (this.value && !emailRegex.test(this.value)) {
+                    emailError.textContent = 'Please enter a valid email address';
+                    emailError.classList.remove('hidden');
+                    this.classList.add('border-red-500');
+                } else {
+                    emailError.classList.add('hidden');
+                    this.classList.remove('border-red-500');
+                }
+            });
+
+            // Form submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                const submitBtn = document.getElementById('submitBtn');
+                const captchaAnswer = document.getElementById('captcha_answer').value;
+
+                // Check honeypot
+                if (document.getElementById('website').value !== '') {
+                    e.preventDefault();
+                    return false;
+                }
+
+                // Check CAPTCHA
+                if (!captchaAnswer) {
+                    e.preventDefault();
+                    const captchaError = document.getElementById('captcha-error');
+                    captchaError.textContent = 'Please solve the math problem';
+                    captchaError.classList.remove('hidden');
+                    return false;
+                }
+
+                // Disable button and show loading
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = 'Sending... ⏳';
+            });
+
+            // Real-time name validation
+            document.getElementById('name').addEventListener('input', function() {
+                const nameError = document.getElementById('name-error');
+                if (this.value.length > 0 && this.value.length < 2) {
+                    nameError.textContent = 'Name must be at least 2 characters';
+                    nameError.classList.remove('hidden');
+                } else {
+                    nameError.classList.add('hidden');
+                }
+            });
+
+            // CAPTCHA input validation
+            document.getElementById('captcha_answer').addEventListener('input', function() {
+                const captchaError = document.getElementById('captcha-error');
+                captchaError.classList.add('hidden');
+            });
+
+        }); // End DOMContentLoaded
     </script>
 
 </body>
