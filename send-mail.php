@@ -1,6 +1,17 @@
 <?php
 session_start();
 
+// ✅ TEMPORARY: Session reset karne ke liye browser mein ye open karo:
+// http://localhost/yourfolder/send-mail.php?reset_session=1
+// Kaam ho jaye toh is block ko hata dena
+if (isset($_GET['reset_session'])) {
+    unset($_SESSION['form_submissions']);
+    unset($_SESSION['form_submissions_contact']);
+    unset($_SESSION['form_submissions_home']);
+    echo "✅ Session cleared! Ab form submit kar sakte ho.";
+    exit;
+}
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -9,108 +20,114 @@ require 'phpmailer/phpmailer/src/PHPMailer.php';
 require 'phpmailer/phpmailer/src/SMTP.php';
 
 // -------------------------------------------
+// AUTO BASE URL DETECTION
+// Local:  http://localhost/erp/
+// Live:   https://erpsecurityexperts.com/
+// Koi hardcode nahi - automatically detect hoga!
+// -------------------------------------------
+function getBaseUrl()
+{
+    $protocol  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    $host      = $_SERVER['HTTP_HOST'];
+    $scriptDir = dirname($_SERVER['SCRIPT_NAME']);
+    if ($scriptDir !== '/') {
+        $scriptDir = rtrim($scriptDir, '/') . '/';
+    }
+    return $protocol . '://' . $host . $scriptDir;
+}
+
+$baseUrl = getBaseUrl();
+
+// -------------------------------------------
 // VALIDATION FUNCTIONS
 // -------------------------------------------
-function sanitizeInput($data) {
+function sanitizeInput($data)
+{
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
 }
 
-function validateEmail($email) {
+function validateEmail($email)
+{
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
-function isSpam($message, $email) {
-    // Check for common spam patterns
+function isSpam($message, $email)
+{
     $spamKeywords = ['viagra', 'casino', 'lottery', 'winner', 'click here', 'buy now', 'limited time'];
     $messageLower = strtolower($message);
-    
     foreach ($spamKeywords as $keyword) {
-        if (strpos($messageLower, $keyword) !== false) {
-            return true;
-        }
+        if (strpos($messageLower, $keyword) !== false) return true;
     }
-    
-    // Check for too many URLs
-    if (substr_count($message, 'http') > 3) {
-        return true;
-    }
-    
-    // Check for suspicious email domains
+    if (substr_count($message, 'http') > 3) return true;
     $suspiciousDomains = ['tempmail', 'throwaway', 'guerrillamail', 'mailinator'];
     foreach ($suspiciousDomains as $domain) {
-        if (strpos(strtolower($email), $domain) !== false) {
-            return true;
-        }
+        if (strpos(strtolower($email), $domain) !== false) return true;
     }
-    
     return false;
 }
 
-function rateLimitCheck() {
-    $maxSubmissions = 3; // Max submissions
-    $timeWindow = 3600; // 1 hour in seconds
-    
-    if (!isset($_SESSION['form_submissions'])) {
-        $_SESSION['form_submissions'] = [];
+function rateLimitCheck($page = 'contact')
+{
+    $maxSubmissions = 10;   // 10 submissions allowed
+    $timeWindow     = 3600; // per hour
+    $sessionKey     = 'form_submissions_' . $page; // alag key har page ke liye
+
+    if (!isset($_SESSION[$sessionKey])) {
+        $_SESSION[$sessionKey] = [];
     }
-    
-    // Clean old submissions
-    $_SESSION['form_submissions'] = array_filter(
-        $_SESSION['form_submissions'],
-        function($timestamp) use ($timeWindow) {
+
+    // Purane submissions clean karo
+    $_SESSION[$sessionKey] = array_filter(
+        $_SESSION[$sessionKey],
+        function ($timestamp) use ($timeWindow) {
             return (time() - $timestamp) < $timeWindow;
         }
     );
-    
-    // Check if limit exceeded
-    if (count($_SESSION['form_submissions']) >= $maxSubmissions) {
-        return false;
-    }
-    
-    // Add current submission
-    $_SESSION['form_submissions'][] = time();
+
+    if (count($_SESSION[$sessionKey]) >= $maxSubmissions) return false;
+    $_SESSION[$sessionKey][] = time();
     return true;
 }
 
 // -------------------------------------------
 // MAIN PROCESSING
 // -------------------------------------------
-
-// Check if form is submitted via POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header("Location: /contact.php?status=invalid_request");
+    header("Location: {$baseUrl}contact.php?status=invalid_request");
     exit;
 }
 
+// 'page' field se pata chalega user kahan tha (home ya contact)
+$sourcePage   = sanitizeInput($_POST['page'] ?? 'contact');
+$redirectPage = ($sourcePage === 'home') ? 'index.php' : 'contact.php';
+$redirectUrl  = $baseUrl . $redirectPage;
+
 // Get form data
-$name = sanitizeInput($_POST['name'] ?? '');
-$email = sanitizeInput($_POST['email'] ?? '');
-$message = sanitizeInput($_POST['message'] ?? '');
-$company = sanitizeInput($_POST['company'] ?? 'N/A');
-$redirectUrl = $_POST['redirect_url'] ?? '/contact.php';
-$source = sanitizeInput($_POST['source'] ?? 'direct');
+$name          = sanitizeInput($_POST['name']           ?? '');
+$email         = sanitizeInput($_POST['email']          ?? '');
+$message       = sanitizeInput($_POST['message']        ?? '');
+$company       = sanitizeInput($_POST['company']        ?? 'N/A');
+$source        = sanitizeInput($_POST['source']         ?? 'direct');
 $captchaAnswer = sanitizeInput($_POST['captcha_answer'] ?? '');
 
 // -------------------------------------------
 // VALIDATION CHECKS
 // -------------------------------------------
-
-// Check required fields
 if (empty($name) || empty($email) || empty($message)) {
     header("Location: {$redirectUrl}?status=error");
     exit;
 }
 
-// Validate CAPTCHA
 if (empty($captchaAnswer)) {
     header("Location: {$redirectUrl}?status=captcha_empty");
     exit;
 }
 
-// Debug: Log the values
+error_log("Base URL: " . $baseUrl);
+error_log("Redirect URL: " . $redirectUrl);
 error_log("User Answer: " . $captchaAnswer);
 error_log("Session Answer: " . (isset($_SESSION['captcha_answer']) ? $_SESSION['captcha_answer'] : 'NOT SET'));
 
@@ -119,8 +136,7 @@ if (!isset($_SESSION['captcha_answer'])) {
     exit;
 }
 
-// Convert both to integers for comparison
-$userAnswer = intval($captchaAnswer);
+$userAnswer    = intval($captchaAnswer);
 $correctAnswer = intval($_SESSION['captcha_answer']);
 
 if ($userAnswer !== $correctAnswer) {
@@ -128,43 +144,36 @@ if ($userAnswer !== $correctAnswer) {
     exit;
 }
 
-// Clear used CAPTCHA
 unset($_SESSION['captcha_answer']);
 
-// Check honeypot field
+// Honeypot check
 if (!empty($_POST['website'])) {
-    // Bot detected, silently reject
     header("Location: {$redirectUrl}?status=success");
     exit;
 }
 
-// Validate email format
 if (!validateEmail($email)) {
     header("Location: {$redirectUrl}?status=invalid");
     exit;
 }
 
-// Validate name length
 if (strlen($name) < 2 || strlen($name) > 100) {
     header("Location: {$redirectUrl}?status=invalid_name");
     exit;
 }
 
-// Validate message length
 if (strlen($message) < 10 || strlen($message) > 5000) {
     header("Location: {$redirectUrl}?status=invalid_message");
     exit;
 }
 
-// Check for spam content
 if (isSpam($message, $email)) {
     error_log("Spam attempt from: $email - $name");
     header("Location: {$redirectUrl}?status=spam_detected");
     exit;
 }
 
-// Rate limiting check
-if (!rateLimitCheck()) {
+if (!rateLimitCheck($sourcePage)) {
     header("Location: {$redirectUrl}?status=rate_limit");
     exit;
 }
@@ -175,19 +184,17 @@ if (!rateLimitCheck()) {
 $mail = new PHPMailer(true);
 
 try {
-    // SMTP SETTINGS
     $mail->isSMTP();
     $mail->Host       = 'erpsecurityexperts.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'noreply@erpsecurityexperts.com';
-    $mail->Password   = 'o8G!y]Qzp50f'; // Add your password
+    $mail->Password   = 'o8G!y]Qzp50f';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    // SEND TO ADMIN
+    // Admin ko email
     $mail->setFrom('noreply@erpsecurityexperts.com', 'ERP Contact Form');
-    $mail->addAddress('asiddiqui@erpsecurityexperts.com');
-
+    $mail->addAddress('boffinbrains@gmail.com');
     $mail->isHTML(true);
     $mail->Subject = 'New Contact Form Message';
     $mail->Body    = "
@@ -221,16 +228,14 @@ try {
             </p>
         </div>
     ";
-
     $mail->send();
 
-    // SEND THANK-YOU TO USER
+    // User ko thank-you email
     $mail->clearAllRecipients();
     $mail->setFrom('noreply@erpsecurityexperts.com', 'ERP Security Experts');
     $mail->addAddress($email, $name);
-
     $mail->Subject = 'Thank you for contacting us';
-    $mail->Body = "
+    $mail->Body    = "
         <div style='font-family: Arial, sans-serif; color: #333; line-height: 1.6; max-width: 600px;'>
             <h2 style='color: #030F47;'>Hello $name,</h2>
             <p>Thank you for getting in touch with us! We appreciate you taking the time to reach out.</p>
@@ -246,15 +251,13 @@ try {
             </p>
         </div>
     ";
-
     $mail->send();
 
-    // SEND USER INFO TO BOFFINBRAINS
+    // Boffinbrains ko user info
     $mail->clearAllRecipients();
     $mail->addAddress('boffinbrains@gmail.com', 'ERP User Info');
-
     $mail->Subject = "New Contact Form Submission: $name";
-    $mail->Body = "
+    $mail->Body    = "
         <div style='font-family: Arial, sans-serif; max-width: 600px;'>
             <h2 style='color: #030F47;'>User Contact Details</h2>
             <table style='width: 100%; border-collapse: collapse;'>
@@ -281,12 +284,10 @@ try {
             </table>
         </div>
     ";
-
     $mail->send();
 
     header("Location: {$redirectUrl}?status=success");
     exit;
-
 } catch (Exception $e) {
     error_log("Mail Error: " . $mail->ErrorInfo);
     header("Location: {$redirectUrl}?status=failed");
